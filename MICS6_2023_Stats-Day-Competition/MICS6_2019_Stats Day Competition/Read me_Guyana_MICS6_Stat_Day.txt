@@ -1,0 +1,1164 @@
+The Following are the Data Sets Provided for the Competition. These are Unweighted Subsets of the 2018/2019 MICS Data set for Guyana.
+
+DataSets:
+1.wm_Women 15 to 49_Stat_Day - Data Set for Surveyed Women in Reproductive age range 15 - 17
+2.mn_Males 15 to 49_Stat_Day - Data Set for Surveyed Men in Reproductive age Range 15 - 17
+3.tn_MosquitoNets_Stat_Day - Data Set for Surveyed Households who were checked for ownership and usage of Mosquito Nets
+4.hl_Household_List_Stat_Day - Data Set for Surveyed Household; List of Household Members
+5.hh_Household_Stat_Day - Data Set for Surveyed Households
+6.fs_ChildOver 5 and below 18_Stat_Day - Data Set for Surveyed Households Primary Caretakers and/or Mothers of Children Between the Age 5 - 17
+7.ch_ChildUnder 5_Stat_Day - Data Set for Surveyed Households Primary Caretakers and/or Mothers of Children below the Age 5
+8.bh_BirthHistory_Stat_Day - Data Set for Surveyed Households' Women with a Birth History
+
+Sample Questionnaires:
+1.MICS6 - Children (under 5 years) Questionnaire (PDF - 882 KB)
+2.MICS6 - Children (5-17 years) Questionnaire (PDF - 1.42 MB)
+3.MICS6 - Men (15-49 years) Questionnaire (PDF - 1.19 MB)
+4.MICS6 - Women (15-49 years) Questionnaire (PDF - 1.08 MB)
+5.MICS6 - Household Questionnaire (PDF - 1.34 MB)
+6.MICS6 - Water Quality Testing Questionnaire (PDF - 987 KB)
+
+Variable Lists:
+1. wm_Women 15 to 49_Stat_Day 
+Variable Variable
+Name    Lable
+HH1	Cluster number
+HH2	Household number
+WB4	Age of woman
+WB5	Ever attended school
+WB6A	Highest level of school attended
+WB6B	Highest grade attended at that level
+WB7	Ever completed that grade/year
+WB9	Attended school during current school year
+WB10A	Level of education attended current school year
+WB10B	Grade attended at that level during current school year
+WB11	Attended school previous school year
+WB12A	Level of education attended previous school year
+WB12B	Grade attended at that level during previous school year
+WB14	Can read part of the sentence
+WB15	Duration of living in current place
+WB16	Place of living prior to moving to current place
+WB17	Region prior to moving to current place
+WB18	Covered by health insurance
+WB19B	Type of health insurance: Mutual health organization / Community-based health insurance
+WB19C	Type of health insurance: Social security
+WB19D	Type of health insurance: Other privately purchased commercial health insurance
+WB19X	Type of health insurance: Other
+WB19NR	Type of health insurance: No response
+MT1	Frequency of reading newspaper or magazine
+MT2	Frequency of listening to the radio
+MT3	Frequency of watching TV
+MT4	Ever used a computer or a tablet
+MT5	Computer / tablet usage in the last 3 months
+MT9	Ever used internet
+MT10	Internet usage in the last 3 months
+MT11	Own a mobile phone
+MT12	Mobile phone usage in the last 3 months
+CM1	Ever given birth
+CM2	Any sons or daughters living with you
+CM3	Sons living with you
+CM4	Daughters living with you
+CM5	Any sons or daughters not living with you
+CM6	Sons living elsewhere
+CM7	Daughters living elsewhere
+CM8	Ever had child who later died
+CM9	Boys dead
+CM10	Girls dead
+CM11	Children ever born
+CM12	Confirm total number of children ever born
+CM15	Check total number of children ever born
+CM17	Live births in last two years
+BH11	Any other live births
+DB2	Wanted last child then
+DB4	Wanted child later or did not want more children
+MN2	Received antenatal care
+MN3A	Antenatal care provider: Doctor
+MN3B	Antenatal care provider: Nurse/Midwife
+MN3C	Antenatal care provider: Medex
+MN3D	Antenatal care provider: Emergency Technician
+MN3E	Antenatal care provider: Single Midwife
+MN3F	Antenatal care provider: Traditional birth attendant
+MN3G	Antenatal care provider: Community health worker
+MN3H	Antenatal care provider: Traditional healer
+MN3X	Antenatal care provider: Other
+MN3NR	Antenatal care provider: No Response
+MN4AU	Weeks or months pregnant at first antenatal care - unit
+MN4AN	Weeks or months pregnant at first antenatal care - number
+MN5	Times received antenatal care
+MN6A	Antenatal care: Blood pressure
+MN6B	Antenatal care: Urine sample
+MN6C	Antenatal care: Blood sample
+MN7	Has own clinic card
+MN8	Any tetanus toxoid injection during last pregnancy
+MN9	Doses of tetanus toxoid during last pregnancy
+MN11	Any tetanus toxoid injection before last pregnancy
+MN12	Doses of tetanus toxoid before last pregnancy
+MN14	Years ago last tetanus toxoid received before last pregnancy
+MN19A	Assistance at delivery: Doctor
+MN19B	Assistance at delivery: Nurse/Midwife
+MN19C	Assistance at delivery: Medex
+MN19D	Assistance at delivery: Emergency Technician
+MN19E	Assistance at delivery: Single Midwife
+MN19F	Assistance at delivery: Traditional birth attendant
+MN19G	Assistance at delivery: Community health worker
+MN19H	Assistance at delivery: Relative/Friend
+MN19X	Assistance at delivery: Other
+MN19Y	Assistance at delivery: No one
+MN19NR	Assistance at delivery: No response
+MN20	Place of delivery
+MN21	Delivery by caesarean section
+MN22	Decision made to have caesarean section
+MN23	After the birth, baby was put directly on the bare skin of mothers chest
+MN24	Baby was wrapped up before being placed on mothers chest
+MN25	Baby was dried or wiped soon after birth
+MN26U	Time baby was bathed - unit
+MN26N	Time baby was bathed - number
+MN28	What was used to cut the cord
+MN29	Instrument used to cut the cord boiled prior to use
+MN30	Something applied to the cord after it was cut
+MN31A	What was applied to the cord: Chlorhexidine
+MN31B	What was applied to the cord: Other antiseptic
+MN31X	What was applied to the cord: Other
+MN31Z	What was applied to the cord: DK/Don't remember
+MN31NR	What was applied to the cord: No Response
+MN32	Size of child at birth
+MN33	Weighed at birth
+MN34A	Weight from clinic card or recall
+MN34	Weight at birth (Kilograms)
+MN35	Menstrual period returned since the birth of child
+MN36	Ever breastfeed
+MN37U	Time baby put to breast - unit
+MN37N	Time baby put to breast - number
+MN38	Within first 3 days after delivery, child given anything to drink other than breast milk
+MN39A	Child given to drink: Milk (other than breast milk)
+MN39B	Child given to drink: Plain water
+MN39C	Child given to drink: Sugar or glucose water
+MN39D	Child given to drink: Gripe water
+MN39E	Child given to drink: Sugar - salt - water solution
+MN39F	Child given to drink: Fruit juice
+MN39G	Child given to drink: Infant formula
+MN39H	Child given to drink: Tea/Infusions
+MN39I	Child given to drink: Honey
+MN39J	Child given to drink: Prescribed medicine
+MN39X	Child given to drink: Other
+MN39Y	Child given to drink: Not given anything to drink
+MN39NR	Child given to drink: No response
+PN3U	Duration of staying in the health facility - unit
+PN3N	Duration of staying in the health facility - number
+PN4	Baby's health checked before leaving health facility
+PN5	Mother's health checked before leaving health facility
+PN6	Baby's health checked after leaving health facility
+PN8	Baby checked after the delivery was over
+PN9	Mother checked after the delivery was over
+PN10	Additional baby check after the delivery
+PN11	Baby checked after the delivery
+PN12	Number of times baby was checked
+PN13U	How long after delivery did the first check of baby happen - unit
+PN13N	How long after delivery did the first check of baby happen - number
+PN14A	Person checking on baby's health: Doctor
+PN14B	Person checking on baby's health: Nurse/Midwife
+PN14C	Person checking on baby's health: Medex
+PN14F	Person checking on baby's health: Traditional birth attendant
+PN14G	Person checking on baby's health: Community health worker
+PN14H	Person checking on baby's health: Relative/Friend
+PN14X	Person checking on baby's health: Other
+PN14NR	Person checking on baby's health: No response
+PN15	Place where baby's health was checked
+PN17	Mother's health checked after leaving health facility
+PN19	Mother's health checked after the delivery was over
+PN20	Mother's health checked after the birth of the baby
+PN21	Number of times mother's health was checked after the birth
+PN22U	How long after delivery did the first check of mother happen - unit
+PN22N	How long after delivery did the first check of mother happen - number
+PN23A	Person checking on mother's health: Doctor
+PN23B	Person checking on mother's health: Nurse/Midwife
+PN23C	Person checking on mother's health: Medex
+PN23D	Person checking on mother's health: Single Midwife
+PN23F	Person checking on mother's health: Traditional birth attendant
+PN23G	Person checking on mother's health: Community health worker
+PN23H	Person checking on mother's health: Relative/Friend
+PN23X	Person checking on mother's health: Other
+PN23NR	Person checking on mother's health: No response
+PN24	Place where mother's health was checked
+PN25A	During two days after birth health care provider: Examine cord
+PN25B	During two days after birth health care provider: Take temperature
+PN25C	During two days after birth health care provider: Counsel on breastfeeding
+PN27	During two days after birth health care provider observe child's breastfeeding
+PN29	During two days after birth health care provider weighed child again
+PN30	During two days after birth health care provider gave information on symtomps
+CP1	Currently pregnant
+CP2	Currently using a method to avoid pregnancy
+CP3	Ever used a method to avoid pregnancy
+CP4A	Current method: Female sterilization
+CP4B	Current method: Male sterilization
+CP4C	Current method: IUD
+CP4D	Current method: Injectables
+CP4E	Current method: Implants
+CP4F	Current method: Pill
+CP4G	Current method: Male condom
+CP4H	Current method: Female condom
+CP4I	Current method: Diaphragm
+CP4J	Current method: Foam/Jelly
+CP4K	Lactational amenorrhoea method (LAM)
+CP4L	Current method: Periodic abstinence/Rhythm
+CP4M	Current method: Withdrawal
+CP4X	Current method: Other
+CP4NR	Current method: No response
+UN2	Wanted to get pregnant at the time
+UN4	Wanted baby later or did not want more children
+UN5	Would like to have another child (currently pregnant)
+UN7	Would like to have another child (not currently pregnant)
+UN8U	Desired waiting time (unit)
+UN8N	Desired waiting time (number)
+UN11	Able to get pregnant
+UN12A	Reason: Infrequent sex / No sex
+UN12B	Reason: Menopausal
+UN12C	Reason: Never menstruated
+UN12D	Reason: Hysterectomy
+UN12E	Reason: Trying to get pregnant for 2 years or more without result
+UN12F	Reason: Postpartum amenorrheic
+UN12G	Reason: Breastfeeding
+UN12H	Reason: Too old
+UN12I	Reason: Fatalistic
+UN12X	Reason: Other
+UN12Z	Reason: DK
+UN12NR	Reason: No response
+UN14U	Start of last menstrual period - unit
+UN14N	Start of last menstrual period - number
+UN16	Social activities, school or work days not attended due to menstruation
+UN17	Availability of private place for washing during last menstrual period
+UN18	Used any materials such as sanitary pads, tampons, leaves, grass or cloth
+UN19	Materials reusable
+DV1A	If she goes out with out telling him: wife beating justified
+DV1B	If she neglects the children: wife beating justified
+DV1C	If she argues with him: wife beating justified
+DV1D	If she refuses sex with him: wife beating justified
+DV1E	If she burns the food: wife beating justified
+DV1F	If she has another partner: wife beating justified
+DV1G	If she stays out late/partying: wife beating justified
+DV1H	If she refuses to cook or clean: wife beating justified
+DV1I	If she does not have access to her cellphone: wife beating justified
+DV1J	If she over spends: wife beating justified
+VT1	Someone taken or tried taking something, by using force or threatening to use force
+VT2	Victimisation happened during the last 12 months
+VT3	Number of times victimisation happened in the last year
+VT5	The last time that this happened, was anything stolen
+VT6	Person(s) had a weapon
+VT7A	Offender(s) had a knife, a gun or something else used as a weapon: A knife
+VT7B	Offender(s) had a knife, a gun or something else used as a weapon: A gun
+VT7X	Offender(s) had a knife, a gun or something else used as a weapon: Other weapon
+VT7NR	Offender(s) had a knife, a gun or something else used as a weapon: No response
+VT8	Incident reported to the police
+VT9	Physically attacked
+VT10	Attack happened during the last 12 months
+VT11	Number of times attack happened in the last year
+VT12	Place attack happened the last time
+VT13	Number of people involved in committing the offence
+VT14	At least one of the offender(s) recognized at the time of the incident
+VT17	Person(s) had a weapon
+VT18A	Offender(s) had a knife, a gun or something else used as a weapon: A knife
+VT18B	Offender(s) had a knife, a gun or something else used as a weapon: A gun
+VT18X	Offender(s) had a knife, a gun or something else used as a weapon: Other weapon
+VT18NR	Offender(s) had a knife, a gun or something else used as a weapon: No response
+VT19	Incident reported to the police
+VT20	Feeling safe walking alone in neighbourhood after dark
+VT21	Feeling safe at home alone after dark
+VT22A	In the past 12 months, felt discriminated: Ethnic or immigration origin
+VT22B	In the past 12 months, felt discriminated: Gender
+VT22C	In the past 12 months, felt discriminated: Sexual orientation
+VT22D	In the past 12 months, felt discriminated: Age
+VT22E	In the past 12 months, felt discriminated: Religion or belief
+VT22F	In the past 12 months, felt discriminated: Disability
+VT22X	In the past 12 months, felt discriminated: Any other reason
+MA1	Currently married or living with a man
+MA2	Age of husband/partner
+MA3	Husband/partner has more wives or partners
+MA4	Number of other wives or partners
+MA5	Ever married or lived with a man
+MA6	Marital status
+MA7	Married or lived with a man once or more than once
+MA11	Age at first union
+AF2	Use glasses or contact lenses
+AF3	Use hearing aid
+AF6	Difficulty seeing, even if wearing glasses or contact lenses
+AF8	Difficulty hearing, even if using a hearing aid
+AF9	Difficulty walking or climbing steps
+AF10	Difficulty remembering or concentrating
+AF11	Difficulty with self-care, such as washing all over or dressing
+AF12	Difficulty communicating
+SB1	Age at first sexual intercourse
+SB2U	Time since last sexual intercourse - unit
+SB2N	Time since last sexual intercourse - number
+SB3	Condom used at last sexual intercourse
+SB4	Relationship to last sexual partner
+SB6	Age of last sexual partner
+SB7	Sex with any other man in the last 12 month
+SB8	Condom used with prior sexual partner
+SB9	Relationship to prior sexual partner
+SB12	Age of prior sexual partner
+HA1	Ever heard of HIV or AIDS
+HA2	Can avoid HIV by having one uninfected partner
+HA3	Can get HIV from mosquito bites
+HA4	Can avoid HIV by using a condom correctly every time
+HA5	Can get HIV by sharing food with a person who has HIV
+HA6	Can get HIV through supernatural means
+HA7	Healthy-looking person may have HIV
+HA8A	HIV from mother to child during pregnancy
+HA8B	HIV from mother to child during delivery
+HA8C	HIV from mother to child through breastfeeding
+HA10	Aware of drugs used to reduce the risk of transmission to the baby
+HA13A	Given information about HIV during antenatal care visit: HIV from mother
+HA13B	Given information about HIV during antenatal care visit: Things to do
+HA13C	Given information about HIV during antenatal care visit: Tested for HIV
+HA13D	Given information about HIV during antenatal care visit: Offered a test
+HA14	Tested for HIV as part of antenatal care
+HA15	Received results from test during antenatal care
+HA16	Received consultation after testing during antenatal care
+HA18	Offered test for HIV before delivery
+HA19	Tested for HIV during delivery
+HA20	Received results from test during delivery
+HA22	Tested for HIV since test during pregnancy
+HA23	Most recent time of testing for HIV
+HA24	Ever been tested for HIV
+HA25	Most recent time of testing for HIV
+HA26	Received results of HIV test
+HA27	Know a place to get HIV test
+HA28	Heard of test kit for HIV testing
+HA29	Ever tested yourself using test kit
+HA30	Would buy fresh vegetables from shopkeeper with AIDS virus
+HA31	Children living with HIV should be allowed to attend school with other children
+HA32	People hesitate to take an HIV test because they are afraid of how other people will react if the test result is positive
+HA33	People talk badly about people living with HIV, or who are thought to be living with HIV
+HA34	People living with HIV, or thought to be living with HIV, lose the respect of other people
+HA35	Agreement with the following statement: I would be ashamed if someone in my family had HIV
+HA36	Fear of getting HIV in contact with the saliva of a person living with HIV
+TA1	Ever tried cigarette smoking
+TA2	Age when cigarette was smoked for the first time
+TA3	Currently smoking cigarettes
+TA4	Number of cigarettes smoked in the last 24 hours
+TA5	Number of days when cigarettes were smoked in past month
+TA6	Ever tried any smoked tobacco products other than cigarettes
+TA7	Used any smoked tobacco products during the last month
+TA8A	Type of smoked tobacco product: Cigars
+TA8D	Type of smoked tobacco product: Pipe
+TA8X	Type of smoked tobacco product: Other
+TA8NR	Type of smoked tobacco product: No response
+TA9	Number of days when tobacco products where smoked in past month
+TA10	Ever tried any form of smokeless tobacco products
+TA11	Used any smokeless tobacco products during the last month
+TA12A	Type of smokeless tobacco product used: Chewing tobacco
+TA12B	Type of smokeless tobacco product used: Snuff
+TA12C	Type of smokeless tobacco product used: Dip
+TA12X	Type of smokeless tobacco product used: Other
+TA12NR	Type of smokeless tobacco product used: No response
+TA13	Number of days when smokeless tobacco products where used in past month
+TA14	Ever drunk alcohol
+TA15	Age when alcohol was used for the first time
+TA16	Number of days when at least one drink of alcohol was used in past month
+TA17	Number of drinks usually consumed
+HH6	Area
+HH6A	Location
+HH7	Region
+WAGE	Age
+WAGEM	Age at first marriage/union of woman
+MSTATUS	Marital/Union status of woman
+CEB	Children ever born
+CSURV	Children surviving
+CDEAD	Children dead
+BH6_first	Age of child
+BH3_last	Sex of new born
+BH6_last	Age of child
+welevel	Education
+wdisability	Functional difficulties (age 18-49 years)
+insurance	Health insurance
+disability	Functional difficulties (age 18-49 years)
+ethnicity	Ethnicity of household head
+
+
+
+2.mn_Males 15 to 49_Stat_Day - Data Set for Surveyed Men in Reproductive age Range 15 - 17
+Variable Variable
+Name	Lable
+HH1	Cluster number
+HH2	Household number
+MWB4	Age of man
+MWB5	Ever attended school or Nursery school
+MWB6A	Highest level of school attended
+MWB6B	Highest grade attended at that level
+MWB7	Ever completed that level
+MWB9	Attended school during current school year
+MWB10A	Level of education attended current school year
+MWB10B	Grade attended at that level during current school year
+MWB11	Attended school previous school year
+MWB12A	Level of education attended previous school year
+MWB12B	Grade attended at that level during previous school year
+MWB14	Can read part of the sentence
+MWB15	Duration of living in current place
+MWB16	Place of living prior to moving to current place
+MWB17	Region prior to moving to current place
+MWB18	Covered by health insurance
+MWB19B	Type of health insurance: Health insurance through employer
+MWB19C	Type of health insurance: Social security
+MWB19D	Type of health insurance: Other privately purchased commercial health insurance
+MWB19X	Type of health insurance: Other
+MWB19NR	Type of health insurance: No response
+MMT1	Frequency of reading newspaper or magazine
+MMT2	Frequency of listening to the radio
+MMT3	Frequency of watching TV
+MMT4	Ever used a computer, smartphone or a tablet
+MMT5	Computer/tablet/smartphone usage in the last 3 months
+MMT9	Ever used internet
+MMT10	Internet usage in the last 3 months
+MMT11	Own a mobile phone
+MMT12	Mobile phone usage in the last 3 months
+MCM1	Ever fathered a child
+MCM2	Any sons or daughters living with you
+MCM3	Sons living with you
+MCM4	Daughters living with you
+MCM5	Any sons or daughters not living with you
+MCM6	Sons living elsewhere
+MCM7	Daughters living elsewhere
+MCM8	Ever had child who later died
+MCM9	Boys dead
+MCM10	Girls dead
+MCM11	Children ever fathered
+MCM12	Confirm total number of children ever fathered
+MCM15	Same biological mother
+MCM16	Number of women respondent had children with
+MCM17	Age when first child was born
+MCM18M	Month of last birth
+MCM18Y	Year of last birth
+MVT1	Someone taken or tried taking something, by using force or threatening to use force
+MVT2	Victimisation happened during the last 12 months
+MVT3	Number of times victimisation happened in the last year
+MVT5	The last time that this happened, was anything stolen
+MVT6	Person(s) had a weapon
+MVT7A	Offender(s) had a knife, a gun or something else used as a weapon: A knife
+MVT7B	Offender(s) had a knife, a gun or something else used as a weapon: A gun
+MVT7X	Offender(s) had a knife, a gun or something else used as a weapon: Other weapon
+MVT7NR	Offender(s) had a knife, a gun or something else used as a weapon: No response
+MVT8	Incident reported to the police
+MVT9	Physically attacked
+MVT10	Attack happened during the last 12 months
+MVT11	Number of times attack happened in the last year
+MVT12	Place attack happened the last time
+MVT13	Number of people involved in committing the offence
+MVT14	At least one of the offender(s) recognized at the time of the incident
+MVT17	Person(s) had a weapon
+MVT18A	Offender(s) had a knife, a gun or something else used as a weapon: A knife
+MVT18B	Offender(s) had a knife, a gun or something else used as a weapon: A gun
+MVT18X	Offender(s) had a knife, a gun or something else used as a weapon: Other weapon
+MVT18NR	Offender(s) had a knife, a gun or something else used as a weapon: No response
+MVT19	Incident reported to the police
+MVT20	Feeling safe walking alone in neighbourhood after dark
+MVT21	Feeling safe at home alone after dark
+MVT22A	In the past 12 months, felt discriminated: Ethnic or immigration origin
+MVT22B	In the past 12 months, felt discriminated: Gender
+MVT22C	In the past 12 months, felt discriminated: Sexual orientation
+MVT22D	In the past 12 months, felt discriminated: Age
+MVT22E	In the past 12 months, felt discriminated: Religion or belief
+MVT22F	In the past 12 months, felt discriminated: Disability
+MVT22X	In the past 12 months, felt discriminated: any other reason
+MMA1	Currently married or living with a woman
+MMA3	Other wives or live-in partners
+MMA4	Number of wives or live-in partners
+MMA5	Ever married or lived with a woman
+MMA6	Marital status
+MMA7	Married or lived with a woman once or more than once
+MMA11	Age at first union
+MAF2	Use glasses or contact lenses
+MAF3	Use hearing aid
+MAF6	Difficulty seeing, even if wearing glasses or contact lenses
+MAF8	Difficulty hearing, even if using a hearing aid
+MAF9	Difficulty walking or climbing steps
+MAF10	Difficulty remembering or concentrating
+MAF11	Difficulty with self-care, such as washing all over or dressing
+MAF12	Difficulty communicating
+MSB1	Age at first sexual intercourse
+MSB2U	Time since last sexual intercourse - unit
+MSB3	Condom used at last sexual intercourse
+MSB4	Relationship to last sexual partner
+MSB6	Age of last sexual partner
+MSB7	Sex with any other person in the last 12 month
+MSB8	Condom used with prior sexual partner
+MSB9	Relationship to prior sexual partner
+MSB12	Age of prior sexual partner
+MHA1	Ever heard of HIV or AIDS
+MHA2	Can avoid HIV by having one uninfected partner
+MHA3	Can get HIV from mosquito bites
+MHA4	Can avoid HIV by using a condom correctly every time
+MHA5	Can get HIV by sharing food with a person who has HIV
+MHA6	Can get HIV through supernatural means
+MHA7	Healthy-looking person may have HIV
+MHA8A	HIV from mother to child during pregnancy
+MHA8B	HIV from mother to child during delivery
+MHA8C	HIV from mother to child through breastfeeding
+MHA10	Aware of drugs used to reduce the risk of transmission to the baby
+MHA24	Ever been tested for HIV
+MHA25	Most recent time of testing for HIV
+MHA26	Received results of HIV test
+MHA27	Know a place to get HIV test
+MHA28	Heard of test kit for HIV testing
+MHA29	Ever tested yourself using test kit
+MHA30	Would buy fresh vegetables from shopkeeper with AIDS virus
+MHA31	Children living with HIV should be allowed to attend school with other children
+MHA32	People hesitate to take an HIV test because they are afraid of how other people will react if the test result is positive
+MHA33	People talk badly about people living with HIV, or who are thought to be living with HIV
+MHA34	People living with HIV, or thought to be living with HIV, lose the respect of other people
+MHA35	Agreement with the following statement: I would be ashamed if someone in my family had HIV
+MHA36	Fear of getting HIV in contact with the saliva of a person living with HIV
+MTA1	Ever tried cigarette smoking
+MTA2	Age when cigarette was smoked for the first time
+MTA3	Currently smoking cigarettes
+MTA4	Number of cigarettes smoked in the last 24 hours
+MTA5	Number of days when cigarettes were smoked in past month
+MTA6	Ever tried any smoked tobacco products other than cigarettes
+MTA7	Used any smoked tobacco products during the last month
+MTA8A	Type of smoked tobacco product: Cigars
+MTA8D	Type of smoked tobacco product: Pipe
+MTA8X	Type of smoked tobacco product: Other
+MTA8NR	Type of smoked tobacco product: No response
+MTA9	Number of days when tobacco products where smoked in past month
+MTA10	Ever tried any form of smokeless tobacco products
+MTA11	Used any smokeless tobacco products during the last month
+MTA12A	Type of smokeless tobacco product used: Chewing tobacco
+MTA12B	Type of smokeless tobacco product used: Snuff
+MTA12C	Type of smokeless tobacco product used: Dip
+MTA12X	Type of smokeless tobacco product used: Other
+MTA12NR	Type of smokeless tobacco product used: No response
+MTA13	Number of days when smokeless tobacco products where used in past month
+MTA14	Ever drunk alcohol
+MTA15	Age when alcohol was used for the first time
+MTA16	Number of days when at least one drink of alcohol was used in past month
+MTA17	Number of drinks usually consumed
+HH6	Area
+HH6A	Location
+HH7	Region
+MWAGE	Age
+mwelevel	Education
+minsurance	Health insurance
+mdisability	Functional difficulties (age 18-49 years)
+ethnicity	Ethnicity of household head
+
+
+3.tn_MosquitoNets_Stat_Day - Data Set for Surveyed Households who were checked for ownership and usage of Mosquito Nets
+
+Variable Variable
+Name	Lable
+HH1	Cluster number
+HH2	Household number
+TNLN	Net number
+TN1	Household has mosquito nets
+TN2	Number of mosquito nets
+TN3	Mosquito net observed
+TN4	Months ago net obtained
+TN5	Brand/type of observed net
+TN13	Persons slept under mosquito net last night
+TN15_1	Person 1 who slept under net
+TN15_2	Person 2 who slept under net
+TN15_3	Person 3 who slept under net
+TN15_4	Person 4 who slept under net
+HH6	Area
+HH6A	Location
+HH7	Region
+ethnicity	Ethnicity of household head
+helevel	Education of household head
+
+
+4.hl_Household_List_Stat_Day - Data Set for Surveyed Household; List of Household Members
+Variable Variable
+Name	Lable
+HH1	Cluster number
+HH2	Household number
+HL3	Relationship to the head
+HL4	Sex
+HL5M	Month of birth
+HL5Y	Year of birth
+HL6	Age
+HL12	Is natural mother alive
+HL13	Does natural mother live in HH
+HL14	Natural mother's line number in HH
+HL15	Where does natural mother live
+HL16	Is natural father alive
+HL17	Does natural father live in HH
+HL19	Where does natural father live
+ED2A	Age
+ED3	Age above 3
+ED4	Ever attended school or or Nursery school
+ED5A	Highest level of education attended
+ED5B	Highest grade attended at that level
+ED6	Ever completed that grade/year
+ED7	Age 3-24
+ED8	Check: Ever attended school or any Nursery school
+ED9	Attended school during current school year
+ED10A	Level of education attended current school year
+ED10B	Grade attended at that level during current school year
+ED11	Type of public school attending during current school year
+ED11A	Tuition paid at the school during current school year
+ED12	School tuition support in the current school year
+ED13A	Fees provided: Govt./public
+ED13B	Fees provided: Religious/faith org.
+ED13C	Fees provided: Private
+ED13X	Fees provided: Other
+ED13Z	Fees provided: DK
+ED13NR	Fees provided: No response
+ED14	Material support in the current school year
+ED15	Attended school previous school year
+ED16A	Level of education attended previous school year
+ED16B	Grade attended at that level during previous school year
+TN3	Mosquito net observed
+TN4	Months ago net obtained
+TN5	Brand/type of observed net
+HH6	Area
+HH6A	Location
+HH7	Region
+caretakerdis	Mother's functional difficulties
+ethnicity	Ethnicity of household head
+helevel	Education of household head
+melevel	Mother’s education
+felevel	Father's education
+schage	Age at beginning of school year
+
+
+5.hh_Household_Stat_Day - Data Set for Surveyed Households
+Variable Variable
+Lable	Lable
+HH1	Cluster number
+HH2	Household number
+HH6	Area
+HH6A	Location
+HH7	Region
+HH26C	Child's age
+HH48	Number of HH members
+HH49	Number of women 15-49 years
+HH50	Number of men 15-49 years [If household is selected for Questionnaire for Men]
+HH51	Number of children under age 5
+HH52	Number of children age 5-17
+HH50A	Number of men 15 - 49 years in interviewed households
+HC1A	Religion of household head
+HC1B	Language of household head
+HC2	Ethnic group of household head
+HC3	Number of rooms used for sleeping
+HC4	Main material of floor
+HC5	Main material of roof
+HC6	Main material of exterior wall
+HC7A	Household have: Fixed telephone line
+HC7B	Household have: Radio
+HC7C	Household have: Bed
+HC7D	Household have: Gas/Kerosene Stove
+HC7E	Household have: Land Dredge for Mining
+HC7F	Household have: Mattress for Sleeping
+HC7G	Household have: Set of Table/Chairs
+HC7H	Household have: Solar Panel
+HC7I	Household have: Generator
+HC8	Household have electricity
+HC9A	Household have: Television
+HC9B	Household have: Refrigerator
+HC9C	Household have: Boiler
+HC9D	Household have: Cable TV
+HC9E	Household have: Washing Machine
+HC9F	Household have: Dryer
+HC9G	Household have: Water Heater
+HC9H	Household have: Microwave
+HC9J	Household have: Water Pump
+HC9K	Household have: Electric Stove
+HC9L	Household have: Air Conditioner
+HC9M	Household have: Fan
+HC10A	Any member of household own: Wrist watch
+HC10B	Any member of household own: Bicycle
+HC10C	Any member of household own: Motorcycle or scooter
+HC10D	Any member of household own: Animal-drawn cart
+HC10E	Any member of household own: Car, truck or van
+HC10F	Any member of household own: Boat with motor
+HC10G	Any member of household own: ATV
+HC10H	Any member of household own: Tractor
+HC10I	Any member of household own: Mini-bus
+HC10J	Any member of household own: Paddle Boat
+HC11	Any member have a computer
+HC12	Any member have a mobile telephone
+HC13	Internet access at home
+HC14	Household owns the dwelling
+HC15	Any household member own land that can be used for agriculture
+HC16	Acres of agricultural land members of household owns
+HC17	Household own any animals
+HC18A	Milk cows or bulls
+HC18B	Other cattle
+HC18C	Horses, donkeys or mules
+HC18D	Goats
+HC18E	Sheep
+HC18F	Chickens
+HC18G	Pigs
+HC18H	Fish Ponds
+HC18I	Guinea Birds
+HC18J	Ducks
+HC18K	Turkeys
+HC18L	Bee Hives
+EU1	Type of cookstove mainly used for cooking
+EU2	Cookstove have a chimney
+EU3	Cookstove have a fan
+EU4	Type of energy source for cookstove
+EU5	Place for cooking
+EU9	Type of lighting in household
+TN1	Household has mosquito nets
+TN2	Number of mosquito nets
+WS1	Main source of drinking water
+WS2	Main source of water used for other purposes (if bottled water used for drinking)
+WS3	Location of the water source
+WS4	Time (in minutes) to get water and come back
+WS5	Person collecting water
+WS6	Number of times person collected water in the last seven days
+WS7	There been any time in the last month without sufficient water
+WS8	Main reason without sufficient water
+WS9	Treat water to make safer for drinking
+WS10A	Water treatment: Boil
+WS10B	Water treatment: Add bleach/chlorine
+WS10C	Water treatment: Strain it through a cloth
+WS10D	Water treatment: Use water filter
+WS10E	Water treatment: Solar disinfection
+WS10F	Water treatment: Let it stand and settle
+WS10X	Water treatment: Other
+WS10Z	Water treatment: DK
+WS10NR	Water treatment: No response
+WS11	Type of toilet facility
+WS12	Pit latrine or septic tank ever been emptied
+WS13	Place where the contents were emptied
+WS14	Location of the toilet faciltity
+WS15	Toilet facility shared with other who are not members of your household
+WS16	Toilet shared with other household or with general public
+WS17	Households using this toilet facility
+HW1	Place where household members most often wash their hands
+HW2	Water available at the place for handwashing
+HW3	Soap or detergent present at place of handwashing
+HW4	Usual place for handwashing
+HW5	Soap/other material available for washing hands
+HW6	Hand washing material shown
+HW7A	Bar soap
+HW7B	Detergent (Powder / Liquid / Paste)
+HW7C	Ash / Mud / Sand
+HW7NR	No response
+SA1	Salt iodization test outcome
+SA2	Salt iodization recheck test outcome
+WQ5D	Day of water quality test
+WQ5M	Month of water quality test
+WQ5Y	Year of water quality test
+WQ6	HH selected for blank testing
+WQ8	Consent for water quality test
+WQ31	Result of water quality test
+WQ10H	Start of water quality test - Hour
+WQ10M	Start of water quality test - Minutes
+WQ23H	End of water quality test - Hour
+WQ23M	End of water quality test - Minutes
+WQ11	A glass of water that you would give to a child to drink was provided
+WQ12	Water was collected from the source
+WQ14	Done anything to the water to make it safer to drink
+WQ15A	Water treatment: Boil
+WQ15B	Water treatment: Add bleach/chlorine
+WQ15C	Water treatment: Strain it through a cloth
+WQ15D	Water treatment: Use water filter
+WQ15E	Water treatment: Solar disinfection
+WQ15F	Water treatment: Let it stand and settle
+WQ15X	Water treatment: Other
+WQ15Z	Water treatment: DK
+WQ15NR	Water treatment: No response
+WQ17	Source of water where the glass of water was collected
+WQ18	Main source of water was shown
+WQ19	Source water sample collected
+WQ20	HH selected for blank testing
+WQ21	Blank water test available
+WQ24Y	Year of recording test results
+WQ26	Household water test (100ml)
+WQ27	Source water test (100ml)
+WQ29	Blank water test (100ml)
+HHSEX	Sex of household head
+HHAGE	Age of household head
+ethnicity	Ethnicity of household head
+helevel	Education of household head
+
+
+6.fs_ChildOver 5 and below 18_Stat_Day - Data Set for Surveyed Households Primary Caretakers and/or Mothers of Children Between the Age 5 - 17
+Variable Variable
+Name	Lable
+HH1	Cluster number
+HH2	Household number
+CB3	Age of child
+CB4	Ever attended school or Nursery school
+CB5A	Highest level of education attended
+CB5B	Highest grade attended at that level
+CB6	Ever completed that grade/year
+CB7	Attended school or Nursery school during current school year
+CB8A	Level of education attended current school year
+CB8B	Grade attended at that level attended current school year
+CB9	Attended school during previous school year
+CB10A	Level of education attended previous school year
+CB10B	Grade attended at that level attended previous school year
+CB11	Covered by any health insurance
+CB12B	Type of health insurance - Health insurance through employer
+CB12C	Type of health insurance - National Insurance Scheme (NIS)
+CB12D	Type of health insurance - Other privately purchased commercial health insurance
+CB12X	Type of health insurance - Other
+CB12NR	Type of health insurance - No response
+CL1A	Worked or helped on garden in past week
+CL1B	Helped in family business in past week
+CL1C	Produced or sold articles in past week
+CL1X	Engaged in any other activity for income in past week
+CL3	Hours worked in past week
+CL4	Activities required carrying heavy loads
+CL5	Activities required working with dangerous tools or heavy machinery
+CL6A	Description of work:  exposed to dust, fumes, or gas
+CL6B	Description of work:  exposed to extreme temperatures or humidity
+CL6C	Description of work:  exposed to loud noise or vibration
+CL6D	Description of work:  required to work at heights
+CL6E	Description of work:  required to work with chemicals
+CL6X	Description of work:  exposed to other
+CL7	Fetched water in past week
+CL8	Hours spent fetching water  in past week
+CL9	Collected firewood  in past week
+CL10	Hours spent collecting firewood  in past week
+FCF1	Child wear glasses or contact lenses
+FCF2	Child uses hearing aid
+FCF3	Child uses any equipment or receive assistance for walking
+FCF6	Child has difficulty seeing
+FCF8	Child has difficulty hearing sounds like people voices or music
+FCF10	Without using equipment or assistance child has difficulty walking 100 yards
+FCF11	Without using equipment or assistance child has difficulty walking 500 yards
+FCF12	When using equipment or assistance child has difficulty walking 100 yards
+FCF13	When using equipment or assistance child has difficulty walking 500 yards
+FCF14	Compared with children of the same age, child has difficulty walking 100 yards
+FCF15	Compared with children of the same age, child has difficulty walking 500 yards
+FCF16	Child has difficulty with self-care such as feeding or dressing
+FCF17	Child has difficulty being understood by people inside of this household
+FCF18	Child has difficulty being understood by people outside of this household
+FCF19	Compared with children of the same age, child has difficulty learning things
+FCF20	Compared with children of the same age, child has difficulty remembering things
+FCF21	Child has difficulty concentrating on an activity that he/she enjoys
+FCF22	Child has difficulty accepting changes in his/her routine
+FCF23	Compared with children of the same age, child have difficulty controlling his/her behaviour
+FCF24	Child has difficulty making friends
+FCF25	How often child seems very anxious, nervous or worried
+FCF26	How often child seems very sad or depressed
+HH6	Area
+HH6A	Location
+HH7	Region
+HH52	Number of children age 5-17
+HL4	Sex
+ED5A	Highest level of education attended
+ED5B	Highest grade attended at that level
+FSAGE	Age
+melevel	Mother's education
+fselevel	Child's education
+schage	Age at beginning of school year
+fsinsurance	Health insurance
+fsdisability	Child's functional difficulties (age 5-17years)
+ethnicity	Ethnicity of household head
+caretakerdis	Functional difficulties (age 18-49 years)
+
+
+7.ch_ChildUnder 5_Stat_Day - Data Set for Surveyed Households Primary Caretakers and/or Mothers of Children below the Age 5
+Variable Variable
+Name	Lable
+HH1	Cluster number
+HH2	Household number
+UB2	Age of child
+UB6	Ever attended school or Nursery school
+UB7	Attended school or Nursery school anytime since the beginning of current school year
+UB8	Currently attending school or Nursery school
+UB9	Covered by any health insurance
+UB10B	Type of health insurance - Health insurance through employer
+UB10C	Type of health insurance - National Insurance Scheme (NIS)
+UB10D	Type of health insurance - Other privately purchased commercial health insurance
+UB10X	Type of health insurance - Other
+UB10NR	Type of health insurance - No response
+BR1	Birth certificate
+BR2	Birth registered
+BR3	Know how to register birth
+EC3A	Days left alone for more than one hour
+EC3B	Days left in the care of another child, that is someone less than 10 years old, for more than one hour
+EC6	Child identifies at least ten letters of the alphabet
+EC7	Child read at least four simple, popular words
+EC8	Child knows name and recognizes symbol of all numbers from 1-10
+EC9	Child able to pick up small object with 2 fingers
+EC10	Child sometimes too sick to play
+EC11	Child follows simple directions
+EC12	Child able to do something independently
+EC13	Child gets along well with other children
+EC14	Child kicks, bites or hits other children or adults
+EC15	Child gets distracted easily
+UCF2	Child wear glasses
+UCF3	Child uses hearing aid
+UCF4	Child uses any equipment or receive assistance for walking
+UCF7	Child has difficulty seeing
+UCF9	Child has difficulty hearing sounds like people voices or music
+UCF11	Without using equipment or assistance child has difficulty walking
+UCF12	When using equipment or assistance child has difficulty walking
+UCF13	Compared with children of the same age, child has difficulty walking
+UCF14	Compared with children of the same age, child has difficulty picking upsmall objects with his/her hand
+UCF15	Child has difficulty understanding parent/caretaker
+UCF16	Child has difficulty being understood by parent/caretaker when speaks
+UCF17	Compared with children of the same age, child has difficulty learning things
+UCF18	Compared with children of the same age, child has difficulty playing
+UCF19	Compared with children of the same age, how much child kick, bite or hit other children or adults
+BD2	Child ever been breastfed
+BD3	Child still being breastfed
+BD4	Child drank anything from a bottle with a nipple yesterday
+BD5	Child drank ORS yesterday
+BD6	Child drank or ate vitamin or mineral supplements yesterday
+BD7A	Child drank plain water yesterday
+BD7B	Child drank juice or juice drinks yesterday
+BD7C	Child drank Aniseed tea, gripe water, fish broth yesterday
+BD7D	Child drank infant formula yesterday
+BD7D1	Times child drank infant formula
+BD7E	Child drank milk from animals yesterday
+BD7E1	Times child drank milk from animals
+BD7X	Child drank Watery Porridge, Rice marr, pediasure, emphamil yesterday
+BD8A	Child ate yogurt yesterday
+BD8A1	Times ate yogurt
+BD8B	Child ate fortified baby food (gerber, hero, cerelac, nestum, etc.) yesterday
+BD8C	Child ate foods made from grains yesterday
+BD8D	Child ate pumpkin, carrots, squash etc. that are yellow or orange inside yesterday
+BD8E	Child ate white potatoes, white yams, manioc, cassava etc. any other foods made from roots yesterday
+BD8F	Child ate green leafy vegetables yesterday
+BD8G	Child ate ripe mangoes, papayas etc. any other vitamin A-rich fruits yesterday
+BD8H	Child ate other fruits or vegetables yesterday
+BD8I	Child ate liver, kidney, heart or other organ meat yesterday
+BD8J	Child ate meat, such as beef, pork, lamb, goat, chicken, duck yesterday
+BD8K	Child ate eggs yesterday
+BD8L	Child ate fresh or dried fish or shellfish yesterday
+BD8M	Child ate beans, peas, lentils or nuts or any food made from these yesterday
+BD8N	Child ate cheese or other food made from milk yesterday
+BD8O	Child ate Insects,grubs such as Tacoma and other worms
+BD8X	Child ate other solid, semi-solid or soft food yesterday
+BD9	Times child ate solid or semi-solid food
+IM2	Vaccination card for child
+IM3	Ever had vaccination card
+IM5	Card - document seen
+IM6BD	Day of BCG immunization
+IM6BM	Month of BCG immunization
+IM6BY	Year of BCG immunization
+IM6HEPBD	Day of HepB (at birth) immunization
+IM6HEPBM	Month of HepB (at birth) immunization
+IM6HEPBY	Year of HepB (at birth) immunization
+IM6P1D	Day of Polio1 (OPV/IPV) immunization
+IM6P1M	Month of Polio1 (OPV/IPV) immunization
+IM6P1Y	Year of Polio1 (OPV/IPV) immunization
+IM6P2D	Day of Polio2 (OPV/IPV) immunization
+IM6P2M	Month of Polio2 (OPV/IPV) immunization
+IM6P2Y	Year of Polio2 (OPV/IPV) immunization
+IM6P3D	Day of Polio3 (OPV/IPV) immunization
+IM6P3M	Month of Polio3 (OPV/IPV) immunization
+IM6P3Y	Year of Polio3 (OPV/IPV) immunization
+IM6PENTA1D	Day of Pentavalent (DPTHibHepB) 1 immunization
+IM6PENTA1M	Month of Pentavalent (DPTHibHepB) 1 immunization
+IM6PENTA1Y	Year of Pentavalent (DPTHibHepB) 1 immunization
+IM6PENTA2D	Day of Pentavalent (DPTHibHepB) 2 immunization
+IM6PENTA2M	Month of Pentavalent (DPTHibHepB) 2 immunization
+IM6PENTA2Y	Year of Pentavalent (DPTHibHepB) 2 immunization
+IM6PENTA3D	Day of Pentavalent (DPTHibHepB) 3 immunization
+IM6PENTA3M	Month of Pentavalent (DPTHibHepB) 3 immunization
+IM6PENTA3Y	Year of Pentavalent (DPTHibHepB) 3 immunization
+IM6PCV1D	Day of Pneumococcal (Conjugate) 1 immunization
+IM6PCV1M	Month of Pneumococcal (Conjugate) 1 immunization
+IM6PCV1Y	Year of Pneumococcal (Conjugate) 1 immunization
+IM6PCV2D	Day of Pneumococcal (Conjugate) 2 immunization
+IM6PCV2M	Month of Pneumococcal (Conjugate) 2 immunization
+IM6PCV2Y	Year of Pneumococcal (Conjugate) 2 immunization
+IM6PCV3D	Day of Pneumococcal (Conjugate) 3 immunization
+IM6PCV3M	Month of Pneumococcal (Conjugate) 3 immunization
+IM6PCV3Y	Year of Pneumococcal (Conjugate) 3 immunization
+IM6R1D	Day of Rotavirus 1 immunization
+IM6R1M	Month of Rotavirus 1 immunization
+IM6R1Y	Year of Rotavirus 1 immunization
+IM6R2D	Day of Rotavirus 2 immunization
+IM6R2M	Month of Rotavirus 2 immunization
+IM6R2Y	Year of Rotavirus 2 immunization
+IM6M1D	Day of MMR/MR 1 immunization
+IM6M1M	Month of MMR/MR 1 immunization
+IM6M1Y	Year of MMR/MR 1 immunization
+IM6M2D	Day of MMR/MR 2 immunization
+IM6M2M	Month of MMR/MR 2 immunization
+IM6M2Y	Year of MMR/MR 2 immunization
+IM6YD	Day of Yellow Fever immunization
+IM6YM	Month of Yellow Fever immunization
+IM6YY	Year of Yellow Fever immunization
+IM8A	Participate in campaign, national immunization day A
+IM9	Child received any other vaccinations during campaigns, immunization days or child health days
+IM11	Child ever received any vaccinations
+IM12A	Participate in campaign, national immunization day A
+IM14	Child ever given BCG vaccination
+IM16	Child ever given Polio drops
+IM17	Polio drops in the first two weeks after birth
+IM18	Times received Polio drops
+IM19	The Last times received Polio drops did he/she get and injection
+IM20	Child ever given Pentavelent vaccination
+IM21	Times received Pentavelent vaccination
+IM22	Child ever given Pneumococcal Conjugate vaccination
+IM23	Times received Pneumococcal Conjugate vaccination
+IM24	Child ever given Rotavirus vaccination
+IM25	Times received Rotavirus vaccination
+IM26	Child ever given MMR/MR vaccination
+IM26A	Times received MMR/MR vaccination
+IM27	Child ever given Yellow Fever vaccination
+CA1	Child had diarrhoea in last 2 weeks
+CA3	Child drank less or more during diarrhoea
+CA4	Child ate less or more during diarrhoea
+CA5	Sought advice or treatment for the diarrhoea from any source
+CA6A	Place sought care: Government hospital
+CA6B	Place sought care: Government health centre
+CA6C	Place sought care: Government health post
+CA6D	Place sought care: Community health worker
+CA6E	Place sought care: Mobile / Outreach clinic
+CA6H	Place sought care: Other public medical
+CA6I	Place sought care: Private hospital / clinic
+CA6J	Place sought care: Private physician
+CA6K	Place sought care: Private pharmacy
+CA6M	Place sought care: Private mobile clinic
+CA6O	Place sought care: Other private medical
+CA6W	Place sought care: DK public or private
+CA6P	Place sought care: Relative / Friend
+CA6Q	Place sought care: Shop / Market / Street
+CA6R	Place sought care: Traditional practitioner
+CA6X	Place sought care: Other
+CA6NR	Place sought care: No response
+CA7A	Child given ORS packet solution
+CA7B	Child given ORS fluid
+CA7D	Child given government-recommended home-made fluid
+CA9A	Place got ORS: Government hospital
+CA9B	Place got ORS: Government health centre
+CA9C	Place got ORS: Government health post
+CA9D	Place got ORS: Community health worker
+CA9E	Place got ORS: Mobile / Outreach clinic
+CA9H	Place got ORS: Other public medical
+CA9I	Place got ORS: Private hospital / clinic
+CA9J	Place got ORS: Private physician
+CA9K	Place got ORS: Private pharmacy
+CA9M	Place got ORS: Private mobile clinic
+CA9O	Place got ORS: Other private medical
+CA9W	Place got ORS: DK public or private
+CA9P	Place got ORS: Relative / Friend
+CA9Q	Place got ORS: Shop / Market / Street
+CA9R	Place got ORS: Traditional practitioner
+CA9X	Place got ORS: Other
+CA9Z	Place got ORS: DK/Don't remember
+CA9NR	Place got ORS: No response
+CA12	What else was given to treat the diarrhoea
+CA13A	Other treatment (pill or syrup): Antibiotic
+CA13B	Other treatment (pill or syrup): Antimotility (anti-diarrhoea)
+CA13G	Other treatment (pill or syrup): Other pill or syrup
+CA13H	Other treatment (pill or syrup): Unknown pill or syrup
+CA13L	Other treatment (injection): Antibiotic
+CA13M	Other treatment (injection): Non-antibiotic
+CA13N	Other treatment (injection): Unknown injection
+CA13O	Other treatment: Intravenous (IV)
+CA13Q	Other treatment: Home remedy / Herbal medicine
+CA13X	Other treatment: Other
+CA13NR	Other treatment: No response
+CA14	Child ill with fever in last 2 weeks
+CA15	Blood taken from finger or heel for testing
+CA16	Child ill with cough in last 2 weeks
+CA17	Difficulty breathing during illness with cough
+CA18	Symptoms due to problem in chest or blocked nose
+CA20	Sought advice or treatment for illness
+CA21A	Place sought care: Government hospital
+CA21B	Place sought care: Government health centre
+CA21C	Place sought care: Government health post
+CA21D	Place sought care: Community health worker
+CA21E	Place sought care: Mobile / Outreach clinic
+CA21H	Place sought care: Other public medical
+CA21I	Place sought care: Private hospital / clinic
+CA21J	Place sought care: Private physician
+CA21K	Place sought care: Private pharmacy
+CA21M	Place sought care: Private mobile clinic
+CA21O	Place sought care: Other private medical
+CA21W	Place sought care: DK public or private
+CA21P	Place sought care: Relative / Friend
+CA21Q	Place sought care: Shop / Market / Street
+CA21R	Place sought care: Traditional practitioner
+CA21X	Place sought care: Other
+CA21NR	Place sought care: No response
+CA22	Given medicine to treat this illness
+CA23A	Medicine: Antimalarials: Artemisinin Combination Theraphy (ACT)
+CA23C	Medicine: Antimalarials: Chloroquine
+CA23D	Medicine: Antimalarials: Amodiaquine
+CA23E	Medicine: Antimalarials: Quinine pills
+CA23F	Medicine: Antimalarials: Injection/IV
+CA23G	Medicine: Antimalarials: Artesunate rectal
+CA23H	Medicine: Antimalarials: Injection/IV
+CA23K	Medicine: Antimalarials: Other antimalarials
+CA23L	Medicine: Antibiotics: Amoxicillin
+CA23M	Medicine: Antibiotics: Cotrimoxazole
+CA23N	Medicine: Antibiotics: Other antibiotic pill / syrup
+CA23O	Medicine: Antibiotics: Other antibiotic injection / IV
+CA23R	Medicine: Paracetamol / Panadol / Acetaminophen
+CA23S	Medicine: Aspirin
+CA23T	Medicine: Ibupropfen
+CA23W	Medicine: Only brand name recorded
+CA23X	Medicine: Other
+CA23Z	Medicine: DK
+CA23NR	Medicine: No response
+CA25A	Place got antibiotics: Government hospital
+CA25B	Place got antibiotics: Government health centre
+CA25C	Place got antibiotics: Government health post
+CA25D	Place got antibiotics: Community health worker (Non Government)
+CA25E	Place got antibiotics: Mobile / Outreach clinic
+CA25H	Place got antibiotics: Other public medical
+CA25I	Place got antibiotics: Private hospital / clinic
+CA25J	Place got antibiotics: Private physician
+CA25K	Place got antibiotics: Private pharmacy
+CA25L	Place got antibiotics: Community health worker (Non Government)
+CA25M	Place got antibiotics: Private mobile clinic
+CA25O	Place got antibiotics: Other private medical
+CA25W	Place got antibiotics: DK public or private
+CA25P	Place got antibiotics: Relative / Friend
+CA25Q	Place got antibiotics: Shop / Market / Street
+CA25R	Place got antibiotics: Traditional practitioner
+CA25X	Place got antibiotics: Other
+CA25Z	Place got antibiotics: DK/Don't remember
+CA25NR	Place got antibiotics: No response
+CA31	What was done to dispose of the stools
+AN4	Age of child
+AN8	Child's weight (kilograms)
+AN11	Child's length or height (centimetres)
+AN12	Child measured lying or standing
+HH6	Area
+HH6A	Location
+HH7	Region
+HL4	Sex
+ED5A	Highest level of education attended
+ED5B	Highest grade attended at that level
+CAGE	Age (in months)
+CAGE_6	Age (in months)
+CAGE_11	Age (in months)
+CAGED	Age (in days)
+BMI	Body Mass Index WHO
+ZBMI	Body Mass Index z-score WHO
+melevel	Mother's education
+cinsurance	Health insurance
+cdisability	Child's functional difficulties (age 2-4 years)
+ethnicity	Ethnicity of household head
+caretakerdis	Functional difficulties (age 18-49 years)
+
+
+8.bh_BirthHistory_Stat_Day - Data Set for Surveyed Households' Women with a Birth History
+Variable Variable
+Name	Lable
+HH1	Cluster number
+HH2	Household number
+BH2	Twins
+BH3	Sex of child
+BH5	Still alive
+BH6	Age of child
+BH7	Living with respondent
+BH9U	Age at death (units)
+BH9N	Age at death (number)
+BH10	Any other between births
+BH4C	Date of birth of child (CMC)
+BH9C	Age at death months (imputed)
+HH6	Area
+HH6A	Location
+HH7	Region
+ethnicity	Ethnicity of household head
+welevel	Education
+insurance	Health insurance
+disability	Functional difficulties (age 18-49 years)
+brthord	Birth order
+magebrt	Mother's age at birth
+birthint	Previous birth interval
