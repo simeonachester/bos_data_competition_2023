@@ -1,0 +1,940 @@
+\documentclass[stu, 12pt, floatsintext,longtable]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
+%\usepackage{subfigure}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{relsize}
+\usepackage{hyperref}
+\usepackage{subfiles}
+\usepackage{bigstrut}
+\usepackage[shortlabels]{enumitem}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{tabularray}
+\usepackage{tabularx}
+\graphicspath{{./graphics}}
+\pgfplotsset{compat=newest}
+\author{Simeon Chester}
+\title{Bureau of Statistics Data Analysis Competition 2023 \\ based on \\
+    Multiple Indicator Cluster Survey}
+\course{Bachelor of Social Science Economics}
+\authorsaffiliations{{Faculty of Social Science}, {Department of Economics},{
+            University of Guyana}}
+\professor{simeonachester@gmail.com}
+\duedate{September, 26, 2023}
+\shorttitle{Multiple Indicator Cluster Survey Analysis}
+\begin{document}
+\maketitle
+
+\section{Introdution}
+
+This paper is based on an analysis of men and women between 15 to 49 years of
+age with emphasis on the highest level of school attended for the two groups.
+\section{Data and Descriptive Statistics}
+\subsection{Data Collection}
+
+For this study, the dataset was based on a Multiple Indicator Cluster Survey
+(MICS6) conducted in 2018 by the Bureau of Statistics in collaboration with
+United Nations Children's Fund (UNICEF) with a sample size of 8700 households
+in Guyana
+distributed country wide in both urban and rural areas.
+
+The datasets used for this particular study were:
+\begin{enumerate}
+    \item wm\_Women\ 15\ to\ 49\_Stat\_Day \- Data Set for Surveyed Women in
+          Reproductive
+          age range 15 \- 17
+    \item mn\_Males 15 to 49\_Stat\_Day \- Data Set for Surveyed Men in
+          Reproductive
+          age Range 15 \- 17
+    \item hh\_Household\_Stat\_Day \- Data Set for Surveyed Households
+\end{enumerate}
+\subsection{Data Preprocessing}
+All data was processed using the Python programming language. The modules used
+in Python were seaborn, matplotlib and pandas. This document has also been
+typsetted using \LaTeX.
+
+For the men and women data, to get the region and area values, the cluster
+number and household number had to be searched for
+in the household dataset, with the region and area values extracted from
+the matched rows.
+
+The total respondents per region for each region area had to also be calculated
+to
+get the
+averages of each school level in each region by area. However, before doing
+this,
+all null and not-available values had to be filtered so the total and averages
+were not skewed/distorted.
+
+All data and source files used in this analysis have been uploaded to a public
+Github repository \parencite{githubdata}.
+
+%# HH1 - cluster number
+%# HH2  - Household number
+%# MWB4	- Age of man
+%# MWB5	- Ever attended school
+%# MWB6A - Highest level of school attended
+%# MWB14 - Can read part of sentence
+\newpage
+\subsection{Final Processed Data}
+\subsubsection{Tables}
+
+\begin{longtable}{ccccc}
+    \toprule
+    \multicolumn{1}{c}{\multirow{2}{*}{Region Number}} &
+    \multicolumn{1}{c}{\multirow{2}{*}{School Level}}  &
+    \multicolumn{1}{c}{Education Level per}            &
+    \multicolumn{1}{c}{\multirow{2}{*}{Area Type}}     &
+    \multicolumn{1}{c}{\multirow{2}{*}{School Level Name}}
+    \\
+    \multicolumn{1}{c}{}                               & \multicolumn{1}{c}{}
+                                                       & Region Area          &
+    \multicolumn{1}{c}{}                               & \multicolumn{1}{c}{}
+    \\
+    \midrule
+    1                                                  & 1                    &
+    0.29
+                                                       &
+    urban                                              & Primary
+    \\
+    1                                                  & 2                    &
+    0.29
+                                                       &
+    urban                                              & Lower Secondary
+    \\
+    1                                                  & 3                    &
+    0.41
+                                                       &
+    urban                                              & Higher Secondary
+    \\
+    1                                                  & 4                    &
+    0.02
+                                                       &
+    urban                                              & Higher
+    \\
+    2                                                  & 1                    &
+    0.10
+                                                       &
+    urban                                              & Primary
+    \\
+    2                                                  & 2                    &
+    0.41
+                                                       &
+    urban                                              & Lower Secondary
+    \\
+    2                                                  & 3                    &
+    0.47
+                                                       &
+    urban                                              & Higher Secondary
+    \\
+    2                                                  & 4                    &
+    0.02
+                                                       &
+    urban                                              & Higher
+    \\
+    4                                                  & 1                    &
+    0.05
+                                                       &
+    urban                                              & Primary
+    \\
+    4                                                  & 2                    &
+    0.19
+                                                       &
+    urban                                              & Lower Secondary
+    \\
+    4                                                  & 3                    &
+    0.43
+                                                       &
+    urban                                              & Higher Secondary
+    \\
+    4                                                  & 4                    &
+    0.32
+                                                       &
+    urban                                              & Higher
+    \\
+    4                                                  & 9                    &
+    0.01
+                                                       &
+    urban                                              & Don't Know
+    \\
+    6                                                  & 1                    &
+    0.11
+                                                       &
+    urban                                              & Primary
+    \\
+    6                                                  & 2                    &
+    0.16
+                                                       &
+    urban                                              & Lower Secondary
+    \\
+    6                                                  & 3                    &
+    0.59
+                                                       &
+    urban                                              & Higher Secondary
+    \\
+    6                                                  & 4                    &
+    0.11
+                                                       &
+    urban                                              & Higher
+    \\
+    6                                                  & 9                    &
+    0.03
+                                                       &
+    urban                                              & Don't Know
+    \\
+    7                                                  & 1                    &
+    0.05
+                                                       &
+    urban                                              & Primary
+    \\
+    7                                                  & 2                    &
+    0.18
+                                                       &
+    urban                                              & Lower Secondary
+    \\
+    7                                                  & 3                    &
+    0.73
+                                                       &
+    urban                                              & Higher Secondary
+    \\
+    7                                                  & 4                    &
+    0.04
+                                                       &
+    urban                                              & Higher
+    \\
+    9                                                  & 1                    &
+    0.16
+                                                       &
+    urban                                              & Primary
+    \\
+    9                                                  & 2                    &
+    0.19
+                                                       &
+    urban                                              & Lower Secondary
+    \\
+    9                                                  & 3                    &
+    0.45
+                                                       &
+    urban                                              & Higher Secondary
+    \\
+    9                                                  & 4                    &
+    0.19
+                                                       &
+    urban                                              & Higher
+    \\
+    10                                                 & 1                    &
+    0.01
+                                                       &
+    urban                                              & Primary
+    \\
+    10                                                 & 2                    &
+    0.19
+                                                       &
+    urban                                              & Lower Secondary
+    \\
+    10                                                 & 3                    &
+    0.47
+                                                       &
+    urban                                              & Higher Secondary
+    \\
+    10                                                 & 4                    &
+    0.33
+                                                       &
+    urban                                              & Higher
+    \\
+    1                                                  & 1                    &
+    0.19
+                                                       &
+    rural                                              & Primary
+    \\
+    1                                                  & 2                    &
+    0.32
+                                                       &
+    rural                                              & Lower Secondary
+    \\
+    1                                                  & 3                    &
+    0.44
+                                                       &
+    rural                                              & Higher Secondary
+    \\
+    1                                                  & 4                    &
+    0.05
+                                                       &
+    rural                                              & Higher
+    \\
+    2                                                  & 0                    &
+    0.01
+                                                       &
+    rural                                              & Nursery
+    \\
+    2                                                  & 1                    &
+    0.16
+                                                       &
+    rural                                              & Primary
+    \\
+    2                                                  & 2                    &
+    0.30
+                                                       &
+    rural                                              & Lower Secondary
+    \\
+    2                                                  & 3                    &
+    0.47
+                                                       &
+    rural                                              & Higher Secondary
+    \\
+    2                                                  & 4                    &
+    0.07
+                                                       &
+    rural                                              & Higher
+    \\
+    3                                                  & 0                    &
+    0.01
+                                                       &
+    rural                                              & Nursery
+    \\
+    3                                                  & 1                    &
+    0.10
+                                                       &
+    rural                                              & Primary
+    \\
+    3                                                  & 2                    &
+    0.29
+                                                       &
+    rural                                              & Lower Secondary
+    \\
+    3                                                  & 3                    &
+    0.41
+                                                       &
+    rural                                              & Higher Secondary
+    \\
+    3                                                  & 4                    &
+    0.18
+                                                       &
+    rural                                              & Higher
+    \\
+    4                                                  & 0                    &
+    0.01
+                                                       &
+    rural                                              & Nursery
+    \\
+    4                                                  & 1                    &
+    0.13
+                                                       &
+    rural                                              & Primary
+    \\
+    4                                                  & 2                    &
+    0.22
+                                                       &
+    rural                                              & Lower Secondary
+    \\
+    4                                                  & 3                    &
+    0.49
+                                                       &
+    rural                                              & Higher Secondary
+    \\
+    4                                                  & 4                    &
+    0.16
+                                                       &
+    rural                                              & Higher
+    \\
+    5                                                  & 1                    &
+    0.13
+                                                       &
+    rural                                              & Primary
+    \\
+    5                                                  & 2                    &
+    0.22
+                                                       &
+    rural                                              & Lower Secondary
+    \\
+    5                                                  & 3                    &
+    0.47
+                                                       &
+    rural                                              & Higher Secondary
+    \\
+    5                                                  & 4                    &
+    0.16
+                                                       &
+    rural                                              & Higher
+    \\
+    5                                                  & 9                    &
+    0.01
+                                                       &
+    rural                                              & Don't Know
+    \\
+    6                                                  & 0                    &
+    0.00
+                                                       &
+    rural                                              & Nursery
+    \\
+    6                                                  & 1                    &
+    0.20
+                                                       &
+    rural                                              & Primary
+    \\
+    6                                                  & 2                    &
+    0.27
+                                                       &
+    rural                                              & Lower Secondary
+    \\
+    6                                                  & 3                    &
+    0.41
+                                                       &
+    rural                                              & Higher Secondary
+    \\
+    6                                                  & 4                    &
+    0.09
+                                                       &
+    rural                                              & Higher
+    \\
+    6                                                  & 9                    &
+    0.02
+                                                       &
+    rural                                              & Don't Know
+    \\
+    7                                                  & 1                    &
+    0.17
+                                                       &
+    rural                                              & Primary
+    \\
+    7                                                  & 2                    &
+    0.25
+                                                       &
+    rural                                              & Lower Secondary
+    \\
+    7                                                  & 3                    &
+    0.51
+                                                       &
+    rural                                              & Higher Secondary
+    \\
+    7                                                  & 4                    &
+    0.07
+                                                       &
+    rural                                              & Higher
+    \\
+    8                                                  & 0                    &
+    0.01
+                                                       &
+    rural                                              & Nursery
+    \\
+    8                                                  & 1                    &
+    0.26
+                                                       &
+    rural                                              & Primary
+    \\
+    8                                                  & 2                    &
+    0.15
+                                                       &
+    rural                                              & Lower Secondary
+    \\
+    8                                                  & 3                    &
+    0.50
+                                                       &
+    rural                                              & Higher Secondary
+    \\
+    8                                                  & 4                    &
+    0.08
+                                                       &
+    rural                                              & Higher
+    \\
+    9                                                  & 1                    &
+    0.22
+                                                       &
+    rural                                              & Primary
+    \\
+    9                                                  & 2                    &
+    0.29
+                                                       &
+    rural                                              & Lower Secondary
+    \\
+    9                                                  & 3                    &
+    0.45
+                                                       &
+    rural                                              & Higher Secondary
+    \\
+    9                                                  & 4                    &
+    0.03
+                                                       &
+    rural                                              & Higher
+    \\
+    9                                                  & 9                    &
+    0.01
+                                                       &
+    rural                                              & Don't Know
+    \\
+    10                                                 & 1                    &
+    0.03
+                                                       &
+    rural                                              & Primary
+    \\
+    10                                                 & 2                    &
+    0.19
+                                                       &
+    rural                                              & Lower Secondary
+    \\
+    10                                                 & 3                    &
+    0.61
+                                                       &
+    rural                                              & Higher Secondary
+    \\
+    10                                                 & 4                    &
+    0.17
+                                                       &
+    rural                                              & Higher
+    \\
+    %        \\ \bottomrule
+    %    \end{tabular}
+
+    %\end{table}
+    \bottomrule
+    \caption{Table showing highest level of school attended by male respondents
+        per Region Area}
+\end{longtable}
+\begin{longtable}{ccccc}
+    \toprule
+    \multicolumn{1}{c}{\multirow{2}{*}{Region Number}} &
+    \multicolumn{1}{c}{\multirow{2}{*}{School Level}}  &
+    \multicolumn{1}{c}{Education Level per}            &
+    \multicolumn{1}{c}{\multirow{2}{*}{Area Type}}     &
+    \multicolumn{1}{c}{\multirow{2}{*}{School Level Name}}
+    \\
+    \multicolumn{1}{c}{}                               & \multicolumn{1}{c}{}
+                                                       & Region Area          &
+    \multicolumn{1}{c}{}                               & \multicolumn{1}{c}{}
+    \\
+    \midrule
+    % Please add the following required packages to your document preamble:
+    % \usepackage{booktabs}
+    %    Region Number & School Level & level\_of\_education\_per\_region\_area & urban\_rural & WB6A\_name       \\
+    1                                                  & 1                    &
+    0.22                                               &
+    urban                                              & Primary
+    \\
+    1                                                  & 2                    &
+    0.20                                               &
+    urban                                              & Lower Secondary
+    \\
+    1                                                  & 3                    &
+    0.55                                               &
+    urban                                              & Higher Secondary
+    \\
+    1                                                  & 4                    &
+    0.03                                               &
+    urban                                              & Higher
+    \\
+    2                                                  & 1                    &
+    0.11                                               &
+    urban                                              & Primary
+    \\
+    2                                                  & 2                    &
+    0.22                                               &
+    urban                                              & Lower Secondary
+    \\
+    2                                                  & 3                    &
+    0.57                                               &
+    urban                                              & Higher Secondary
+    \\
+    2                                                  & 4                    &
+    0.09                                               &
+    urban                                              & Higher
+    \\
+    4                                                  & 1                    &
+    0.02                                               &
+    urban                                              & Primary
+    \\
+    4                                                  & 2                    &
+    0.12                                               &
+    urban                                              & Lower Secondary
+    \\
+    4                                                  & 3                    &
+    0.51                                               &
+    urban                                              & Higher Secondary
+    \\
+    4                                                  & 4                    &
+    0.35                                               &
+    urban                                              & Higher
+    \\
+    4                                                  & 9                    &
+    0.01                                               &
+    urban                                              & Don't Know
+    \\
+    6                                                  & 1                    &
+    0.11                                               &
+    urban                                              & Primary
+    \\
+    6                                                  & 2                    &
+    0.21                                               &
+    urban                                              & Lower Secondary
+    \\
+    6                                                  & 3                    &
+    0.52                                               &
+    urban                                              & Higher Secondary
+    \\
+    6                                                  & 4                    &
+    0.16                                               &
+    urban                                              & Higher
+    \\
+    6                                                  & 9                    &
+    0.00                                               &
+    urban                                              & Don't Know
+    \\
+    7                                                  & 1                    &
+    0.06                                               &
+    urban                                              & Primary
+    \\
+    7                                                  & 2                    &
+    0.17                                               &
+    urban                                              & Lower Secondary
+    \\
+    7                                                  & 3                    &
+    0.68                                               &
+    urban                                              & Higher Secondary
+    \\
+    7                                                  & 4                    &
+    0.08                                               &
+    urban                                              & Higher
+    \\
+    9                                                  & 1                    &
+    0.03                                               &
+    urban                                              & Primary
+    \\
+    9                                                  & 2                    &
+    0.23                                               &
+    urban                                              & Lower Secondary
+    \\
+    9                                                  & 3                    &
+    0.62                                               &
+    urban                                              & Higher Secondary
+    \\
+    9                                                  & 4                    &
+    0.12                                               &
+    urban                                              & Higher
+    \\
+    10                                                 & 1                    &
+    0.02                                               &
+    urban                                              & Primary
+    \\
+    10                                                 & 2                    &
+    0.11                                               &
+    urban                                              & Lower Secondary
+    \\
+    10                                                 & 3                    &
+    0.57                                               &
+    urban                                              & Higher Secondary
+    \\
+    10                                                 & 4                    &
+    0.30                                               &
+    urban                                              & Higher
+    \\
+    10                                                 & 9                    &
+    0.00                                               &
+    urban                                              & Don't Know
+    \\
+    1                                                  & 1                    &
+    0.21                                               &
+    rural                                              & Primary
+    \\
+    1                                                  & 2                    &
+    0.27                                               &
+    rural                                              & Lower Secondary
+    \\
+    1                                                  & 3                    &
+    0.47                                               &
+    rural                                              & Higher Secondary
+    \\
+    1                                                  & 4                    &
+    0.05                                               &
+    rural                                              & Higher
+    \\
+    2                                                  & 0                    &
+    0.00                                               &
+    rural                                              & Nursery
+    \\
+    2                                                  & 1                    &
+    0.15                                               &
+    rural                                              & Primary
+    \\
+    2                                                  & 2                    &
+    0.23                                               &
+    rural                                              & Lower Secondary
+    \\
+    2                                                  & 3                    &
+    0.52                                               &
+    rural                                              & Higher Secondary
+    \\
+    2                                                  & 4                    &
+    0.09                                               &
+    rural                                              & Higher
+    \\
+    2                                                  & 9                    &
+    0.01                                               &
+    rural                                              & Don't Know
+    \\
+    3                                                  & 1                    &
+    0.08                                               &
+    rural                                              & Primary
+    \\
+    3                                                  & 2                    &
+    0.26                                               &
+    rural                                              & Lower Secondary
+    \\
+    3                                                  & 3                    &
+    0.50                                               &
+    rural                                              & Higher Secondary
+    \\
+    3                                                  & 4                    &
+    0.16                                               &
+    rural                                              & Higher
+    \\
+    3                                                  & 9                    &
+    0.00                                               &
+    rural                                              & Don't Know
+    \\
+    4                                                  & 1                    &
+    0.09                                               &
+    rural                                              & Primary
+    \\
+    4                                                  & 2                    &
+    0.23                                               &
+    rural                                              & Lower Secondary
+    \\
+    4                                                  & 3                    &
+    0.48                                               &
+    rural                                              & Higher Secondary
+    \\
+    4                                                  & 4                    &
+    0.20                                               &
+    rural                                              & Higher
+    \\
+    4                                                  & 9                    &
+    0.00                                               &
+    rural                                              & Don't Know
+    \\
+    5                                                  & 0                    &
+    0.00                                               &
+    rural                                              & Nursery
+    \\
+    5                                                  & 1                    &
+    0.10                                               &
+    rural                                              & Primary
+    \\
+    5                                                  & 2                    &
+    0.19                                               &
+    rural                                              & Lower Secondary
+    \\
+    5                                                  & 3                    &
+    0.59                                               &
+    rural                                              & Higher Secondary
+    \\
+    5                                                  & 4                    &
+    0.11                                               &
+    rural                                              & Higher
+    \\
+    5                                                  & 9                    &
+    0.01                                               &
+    rural                                              & Don't Know
+    \\
+    6                                                  & 0                    &
+    0.00                                               &
+    rural                                              & Nursery
+    \\
+    6                                                  & 1                    &
+    0.17                                               &
+    rural                                              & Primary
+    \\
+    6                                                  & 2                    &
+    0.23                                               &
+    rural                                              & Lower Secondary
+    \\
+    6                                                  & 3                    &
+    0.51                                               &
+    rural                                              & Higher Secondary
+    \\
+    6                                                  & 4                    &
+    0.08                                               &
+    rural                                              & Higher
+    \\
+    6                                                  & 9                    &
+    0.00                                               &
+    rural                                              & Don't Know
+    \\
+    7                                                  & 1                    &
+    0.23                                               &
+    rural                                              & Primary
+    \\
+    7                                                  & 2                    &
+    0.19                                               &
+    rural                                              & Lower Secondary
+    \\
+    7                                                  & 3                    &
+    0.53                                               &
+    rural                                              & Higher Secondary
+    \\
+    7                                                  & 4                    &
+    0.05                                               &
+    rural                                              & Higher
+    \\
+    8                                                  & 0                    &
+    0.00                                               &
+    rural                                              & Nursery
+    \\
+    8                                                  & 1                    &
+    0.15                                               &
+    rural                                              & Primary
+    \\
+    8                                                  & 2                    &
+    0.19                                               &
+    rural                                              & Lower Secondary
+    \\
+    8                                                  & 3                    &
+    0.61                                               &
+    rural                                              & Higher Secondary
+    \\
+    8                                                  & 4                    &
+    0.04                                               &
+    rural                                              & Higher
+    \\
+    9                                                  & 1                    &
+    0.13                                               &
+    rural                                              & Primary
+    \\
+    9                                                  & 2                    &
+    0.28                                               &
+    rural                                              & Lower Secondary
+    \\
+    9                                                  & 3                    &
+    0.54                                               &
+    rural                                              & Higher Secondary
+    \\
+    9                                                  & 4                    &
+    0.05                                               &
+    rural                                              & Higher
+    \\
+    10                                                 & 1                    &
+    0.05                                               &
+    rural                                              & Primary
+    \\
+    10                                                 & 2                    &
+    0.19                                               &
+    rural                                              & Lower Secondary
+    \\
+    10                                                 & 3                    &
+    0.49                                               &
+    rural                                              & Higher Secondary
+    \\
+    10                                                 & 4                    &
+    0.27                                               &
+    rural                                              & Higher
+    \\
+    \bottomrule
+    \caption{Table showing highest level of school attended by female
+        respondents
+        per Region Area}
+\end{longtable}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+    \centering
+    \begin{tabular}{@{}lrrrr@{}}
+        \toprule
+        \multirow{2}{*}{School Level} & \multicolumn{4}{c}{Averages by Area}
+
+        \\
+                                      & \multicolumn{1}{l}{Urban Men}        &
+        \multicolumn{1}{l}{Rural Men} & \multicolumn{1}{l}{Urban Women}      &
+        \multicolumn{1}{l}{Rural Women}
+        \\
+        \midrule
+        nursery                       & 0.00                                 &
+        0.00
+                                      & 0.00                                 &
+        0.00
+        \\
+        primary                       & 0.09                                 &
+        0.16
+                                      & 0.06                                 &
+        0.13
+        \\
+        lower secondary               & 0.22                                 &
+        0.26
+                                      & 0.16                                 &
+        0.23
+        \\
+        higher secondary              & 0.50                                 &
+        0.46
+                                      & 0.56                                 &
+        0.52
+        \\
+        higher                        & 0.18                                 &
+        0.11
+                                      & 0.21                                 &
+        0.12
+        \\
+        don't know                    & 0.01                                 &
+        0.00
+                                      & 0.00                                 &
+        0.00
+        \\
+        \bottomrule
+    \end{tabular}
+    \caption{Table showing highest level of school attended per each area
+        striated by Gender}
+\end{table}
+\subsubsection{Figures}
+\begin{figure}[H]
+    \centering
+
+    \includegraphics[width=\linewidth]{graphics/male_highest_school_attended.png}
+    \caption{Graph showing highest level of school atttended for male
+        respondents per region in each area}
+    \label{fig:male_attendance}
+\end{figure}
+\begin{figure}[H]
+    \centering
+
+    \includegraphics[width=\linewidth]{graphics/female_highest_school_attended.png}
+    \caption{Graph showing highest level of school atttended for female
+        respondents per region in each area}
+    \label{fig:female_attendance}
+\end{figure}
+
+\newpage
+\section{Discussion}
+\subsection{Female highest level of school attended per Area and Region}
+
+For both the urban and rural areas it was observed that the predominant school
+level was higher secondary with an average of nearly 50\% of the respondents.
+In the rural area this was followed by lower secondary,
+primary and then higher with averages of 23\%, 13\% and 12\% respectively.
+In the urban area, the higher secondary level was followed by higher, lower
+secondary then primary with averages of 21\%, 16\% and 6\% respectively.
+This shows that in the urban area women are far more likely to attend
+institutions of higher learning after finishing their highschool education.
+This reason might be attributed to proximity of institutions from living area.
+This assumption can be supported by looking at the averages per region, where
+regions 3, 4 and 10 is observed to have the greatest portions of women in both
+rural and urban areas having attended a higher institution level.
+
+\subsection{Male highest level of school attended per Area and Region}
+For both the urban and rural areas it was observed that the predominant school
+level was higher secondary with an average of nearly 50\% of the respondents.
+In the rural area this was followed by lower secondary, primary then higher
+with averages of 26\%, 16\% and 11\% respectively while in the
+urban area this was followed by lower secondary, higher then primary with area
+averages of 22\%, 18\% and 9\%
+respectively.
+\printbibliography
+\end{document}
