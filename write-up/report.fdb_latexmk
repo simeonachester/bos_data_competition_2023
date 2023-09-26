@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber report"] 1695670662 "report.bcf" "report.bbl" "report" 1695676693
+["biber report"] 1695670662 "report.bcf" "report.bbl" "report" 1695691244
   "bibliography.bib" 1695670574 215 d89ac9beddbc91a4cc9ad696058a857f ""
-  "report.bcf" 1695676692 123672 e59ac84868e10a47653cb051675e42e0 "pdflatex"
+  "report.bcf" 1695691243 123672 e59ac84868e10a47653cb051675e42e0 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1695676690 "/home/kerboros/Documents/github/bos_data_competition_2023/write-up/report.tex" "report.pdf" "report" 1695676693
+["pdflatex"] 1695691241 "/home/kerboros/Documents/github/bos_data_competition_2023/write-up/report.tex" "report.pdf" "report" 1695691244
   "/etc/texmf/web2c/texmf.cnf" 1691952638 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/kerboros/Documents/github/bos_data_competition_2023/write-up/report.tex" 1695676690 43148 bae642bdc0d59316f9e5a26e21bc92d9 ""
+  "/home/kerboros/Documents/github/bos_data_competition_2023/write-up/report.tex" 1695691241 43836 8756295715da2894a66f94a04af45abf ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
@@ -266,12 +266,13 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1693318115 4036811 4cb80868003c86b962b6b5ae1e1e2902 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1693318630 1405649 248c6544e51da34fc26c6a72c2c0a96e ""
   "graphics/female_highest_school_attended.png" 1695662305 112656 3dcd19f0ffe26d23b28c44989d5e3bfc ""
+  "graphics/male_female_attendance_averages.png" 1695690222 77641 9ef0e50c363caa434d2e23da9b46523e ""
   "graphics/male_highest_school_attended.png" 1695662324 112165 c1ec1f5f72375ba85cf247a5d09f8d04 ""
-  "report.aux" 1695676692 3835 4b62fd75797d4d6c941f58520aa4d205 "pdflatex"
+  "report.aux" 1695691243 4299 657eb2a3f57b4e265c703481c713cd08 "pdflatex"
   "report.bbl" 1695670663 1822 dd67126a09c4df9295063accf54539f7 "biber report"
-  "report.out" 1695676692 1761 c0f50aba4210c761479ef226735d2997 "pdflatex"
-  "report.run.xml" 1695676692 2443 2e5918a57c06501bd56df564532dd417 "pdflatex"
-  "report.tex" 1695676690 43148 bae642bdc0d59316f9e5a26e21bc92d9 ""
+  "report.out" 1695691243 1939 407bd3a1066bfa8c9c0ff70cc1e229fa "pdflatex"
+  "report.run.xml" 1695691243 2443 2e5918a57c06501bd56df564532dd417 "pdflatex"
+  "report.tex" 1695691241 43836 8756295715da2894a66f94a04af45abf ""
   (generated)
   "report.aux"
   "report.bcf"

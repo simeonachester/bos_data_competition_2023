@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.29)  25 SEP 2023 17:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.29)  25 SEP 2023 21:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1254,38 +1254,44 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htb') on input line 849.
 
-<graphics/male_highest_school_attended.png, id=98, 984.3174pt x 853.5087pt>
+<graphics/male_highest_school_attended.png, id=102, 984.3174pt x 853.5087pt>
 File: graphics/male_highest_school_attended.png Graphic file (type png)
 <use graphics/male_highest_school_attended.png>
 Package pdftex.def Info: graphics/male_highest_school_attended.png  used on input line 900.
 (pdftex.def)             Requested size: 469.75502pt x 407.32228pt.
-<graphics/female_highest_school_attended.png, id=100, 984.3174pt x 853.5087pt>
+<graphics/female_highest_school_attended.png, id=104, 984.3174pt x 853.5087pt>
 File: graphics/female_highest_school_attended.png Graphic file (type png)
 <use graphics/female_highest_school_attended.png>
 Package pdftex.def Info: graphics/female_highest_school_attended.png  used on input line 908.
 (pdftex.def)             Requested size: 469.75502pt x 407.32228pt.
-[10] [11 <./graphics/male_highest_school_attended.png>] [12 <./graphics/female_highest_school_attended.png>] [13] AED endfloat: Processing end Figures and Tables [14
+[10]
+<graphics/male_female_attendance_averages.png, id=110, 618.6312pt x 506.6127pt>
+File: graphics/male_female_attendance_averages.png Graphic file (type png)
+<use graphics/male_female_attendance_averages.png>
+Package pdftex.def Info: graphics/male_female_attendance_averages.png  used on input line 916.
+(pdftex.def)             Requested size: 469.75502pt x 384.68951pt.
+ [11 <./graphics/male_highest_school_attended.png>] [12 <./graphics/female_highest_school_attended.png>] [13 <./graphics/male_female_attendance_averages.png>] [14] AED endfloat: Processing end Figures and Tables [15
 
 ] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: C0F50ABA4210C761479EF226735D2997;1761.
+(rerunfilecheck)             Checksum: 407BD3A1066BFA8C9C0FF70CC1E229FA;1939.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44980 strings out of 480247
- 1013495 string characters out of 5896151
- 1866287 words of memory out of 5000000
- 62202 multiletter control sequences out of 15000+600000
+ 44992 strings out of 480247
+ 1013898 string characters out of 5896151
+ 1866400 words of memory out of 5000000
+ 62210 multiletter control sequences out of 15000+600000
  510141 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,11n,103p,1198b,5033s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on report.pdf (14 pages, 290763 bytes).
+Output written on report.pdf (15 pages, 347018 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

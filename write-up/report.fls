@@ -1396,6 +1396,11 @@ INPUT ./graphics/female_highest_school_attended.png
 INPUT graphics/female_highest_school_attended.png
 INPUT ./graphics/female_highest_school_attended.png
 INPUT ./graphics/female_highest_school_attended.png
+INPUT ./graphics/male_female_attendance_averages.png
+INPUT ./graphics/male_female_attendance_averages.png
+INPUT graphics/male_female_attendance_averages.png
+INPUT ./graphics/male_female_attendance_averages.png
+INPUT ./graphics/male_female_attendance_averages.png
 INPUT report.aux
 INPUT ./report.out
 INPUT ./report.out
