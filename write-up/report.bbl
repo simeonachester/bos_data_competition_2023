@@ -19,6 +19,96 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{dataset}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f329f7c4bd03e1d8a6a5b143014aa13}{%
+           family={{Bureau of Statistics}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f329f7c4bd03e1d8a6a5b143014aa13}
+      \strng{fullhash}{6f329f7c4bd03e1d8a6a5b143014aa13}
+      \strng{bibnamehash}{6f329f7c4bd03e1d8a6a5b143014aa13}
+      \strng{authorbibnamehash}{6f329f7c4bd03e1d8a6a5b143014aa13}
+      \strng{authornamehash}{6f329f7c4bd03e1d8a6a5b143014aa13}
+      \strng{authorfullhash}{6f329f7c4bd03e1d8a6a5b143014aa13}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://statisticsguyana.gov.gy/wp-content/uploads/2019/10/MICS6_2023_Stats-Day-Competition.zip
+      \endverb
+      \verb{url}
+      \verb https://statisticsguyana.gov.gy/wp-content/uploads/2019/10/MICS6_2023_Stats-Day-Competition.zip
+      \endverb
+    \endentry
+    \entry{matplotlib}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{{Matplotlib}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://matplotlib.org/
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/
+      \endverb
+    \endentry
+    \entry{pandas}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{{Pandas}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://pandas.pydata.org/pandas-docs/stable/index.html
+      \endverb
+      \verb{url}
+      \verb https://pandas.pydata.org/pandas-docs/stable/index.html
+      \endverb
+    \endentry
+    \entry{python}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{{Python Programming Language}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.python.org/
+      \endverb
+      \verb{url}
+      \verb https://www.python.org/
+      \endverb
+    \endentry
+    \entry{seaborn}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{{Seaborn}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://seaborn.pydata.org/index.html#
+      \endverb
+      \verb{url}
+      \verb https://seaborn.pydata.org/index.html#
+      \endverb
+    \endentry
     \entry{githubdata}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cb80c639725f992dd766b4dd8f2065c4}{%

@@ -2791,8 +2791,18 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">githubdata</bcf:citekey>
-    <bcf:citekey order="2">githubdata</bcf:citekey>
+    <bcf:citekey order="1">dataset</bcf:citekey>
+    <bcf:citekey order="2">python</bcf:citekey>
+    <bcf:citekey order="3">seaborn</bcf:citekey>
+    <bcf:citekey order="4">matplotlib</bcf:citekey>
+    <bcf:citekey order="5">pandas</bcf:citekey>
+    <bcf:citekey order="6">githubdata</bcf:citekey>
+    <bcf:citekey order="7">dataset</bcf:citekey>
+    <bcf:citekey order="8">python</bcf:citekey>
+    <bcf:citekey order="9">seaborn</bcf:citekey>
+    <bcf:citekey order="10">matplotlib</bcf:citekey>
+    <bcf:citekey order="11">pandas</bcf:citekey>
+    <bcf:citekey order="12">githubdata</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
