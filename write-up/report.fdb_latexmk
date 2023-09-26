@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber report"] 1695670662 "report.bcf" "report.bbl" "report" 1695691244
+["biber report"] 1695670662 "report.bcf" "report.bbl" "report" 1695691756
   "bibliography.bib" 1695670574 215 d89ac9beddbc91a4cc9ad696058a857f ""
-  "report.bcf" 1695691243 123672 e59ac84868e10a47653cb051675e42e0 "pdflatex"
+  "report.bcf" 1695691755 123672 e59ac84868e10a47653cb051675e42e0 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1695691241 "/home/kerboros/Documents/github/bos_data_competition_2023/write-up/report.tex" "report.pdf" "report" 1695691244
+["pdflatex"] 1695691753 "/home/kerboros/Documents/github/bos_data_competition_2023/write-up/report.tex" "report.pdf" "report" 1695691756
   "/etc/texmf/web2c/texmf.cnf" 1691952638 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/kerboros/Documents/github/bos_data_competition_2023/write-up/report.tex" 1695691241 43836 8756295715da2894a66f94a04af45abf ""
+  "/home/kerboros/Documents/github/bos_data_competition_2023/write-up/report.tex" 1695691747 44075 bdf4dc8ad5dd3ee2b4b7ee0c4fb05714 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
@@ -268,11 +268,11 @@
   "graphics/female_highest_school_attended.png" 1695662305 112656 3dcd19f0ffe26d23b28c44989d5e3bfc ""
   "graphics/male_female_attendance_averages.png" 1695690222 77641 9ef0e50c363caa434d2e23da9b46523e ""
   "graphics/male_highest_school_attended.png" 1695662324 112165 c1ec1f5f72375ba85cf247a5d09f8d04 ""
-  "report.aux" 1695691243 4299 657eb2a3f57b4e265c703481c713cd08 "pdflatex"
+  "report.aux" 1695691755 4299 7ea66ac558cef06e90db57179ac5d364 "pdflatex"
   "report.bbl" 1695670663 1822 dd67126a09c4df9295063accf54539f7 "biber report"
-  "report.out" 1695691243 1939 407bd3a1066bfa8c9c0ff70cc1e229fa "pdflatex"
-  "report.run.xml" 1695691243 2443 2e5918a57c06501bd56df564532dd417 "pdflatex"
-  "report.tex" 1695691241 43836 8756295715da2894a66f94a04af45abf ""
+  "report.out" 1695691755 1939 407bd3a1066bfa8c9c0ff70cc1e229fa "pdflatex"
+  "report.run.xml" 1695691755 2443 2e5918a57c06501bd56df564532dd417 "pdflatex"
+  "report.tex" 1695691747 44075 bdf4dc8ad5dd3ee2b4b7ee0c4fb05714 ""
   (generated)
   "report.aux"
   "report.bcf"

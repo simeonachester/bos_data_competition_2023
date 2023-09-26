@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.29)  25 SEP 2023 21:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.29)  25 SEP 2023 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1270,7 +1270,7 @@ File: graphics/male_female_attendance_averages.png Graphic file (type png)
 <use graphics/male_female_attendance_averages.png>
 Package pdftex.def Info: graphics/male_female_attendance_averages.png  used on input line 916.
 (pdftex.def)             Requested size: 469.75502pt x 384.68951pt.
- [11 <./graphics/male_highest_school_attended.png>] [12 <./graphics/female_highest_school_attended.png>] [13 <./graphics/male_female_attendance_averages.png>] [14] AED endfloat: Processing end Figures and Tables [15
+ [11 <./graphics/male_highest_school_attended.png>] [12 <./graphics/female_highest_school_attended.png>] [13 <./graphics/male_female_attendance_averages.png>] [14] [15] AED endfloat: Processing end Figures and Tables [16
 
 ] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
@@ -1280,18 +1280,18 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44992 strings out of 480247
- 1013898 string characters out of 5896151
+ 44993 strings out of 480247
+ 1013905 string characters out of 5896151
  1866400 words of memory out of 5000000
  62210 multiletter control sequences out of 15000+600000
  510141 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,11n,103p,1198b,5033s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on report.pdf (15 pages, 347018 bytes).
+Output written on report.pdf (16 pages, 347441 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
