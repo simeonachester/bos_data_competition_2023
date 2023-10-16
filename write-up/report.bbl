@@ -141,6 +141,36 @@
       \verb https://github.com/simeonachester/bos_data_competition_2023
       \endverb
     \endentry
+    \entry{worldbankruralpop}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e34f8e39991a692b65cfd5b750bd71bd}{%
+           family={{The World Bank}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{e34f8e39991a692b65cfd5b750bd71bd}
+      \strng{fullhash}{e34f8e39991a692b65cfd5b750bd71bd}
+      \strng{bibnamehash}{e34f8e39991a692b65cfd5b750bd71bd}
+      \strng{authorbibnamehash}{e34f8e39991a692b65cfd5b750bd71bd}
+      \strng{authornamehash}{e34f8e39991a692b65cfd5b750bd71bd}
+      \strng{authorfullhash}{e34f8e39991a692b65cfd5b750bd71bd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{urlday}{26}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/indicator/SP.RUR.TOTL.ZS?locations=GY
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/indicator/SP.RUR.TOTL.ZS?locations=GY
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

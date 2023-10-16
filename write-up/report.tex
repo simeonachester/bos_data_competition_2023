@@ -30,16 +30,23 @@
 \course{Bachelor of Social Science Economics}
 \authorsaffiliations{{Faculty of Social Science}, {Department of Economics},{
             University of Guyana}}
-\professor{simeonachester@gmail.com}
-\duedate{September, 26, 2023}
-\shorttitle{Multiple Indicator Cluster Survey Analysis}
+\professor{simeonachester@gmail.com \\ Tel: 221-2949}
+\duedate{October, 16, 2023}
+\shorttitle{Multiple Indicator Cluster Survey Analysis - Education}
 \begin{document}
 \maketitle
 
 \section{Introdution}
 
 This paper is based on an analysis of men and women between 15 to 49 years of
-age with emphasis on the highest level of school attended for the two groups.
+age with emphasis on the highest level of school attended for the two groups in
+the urban and rural areas. According, to the World Bank\footcite[World
+    Bank][]{worldbankruralpop},
+approximately 70\% of Guyana's population live in the rural areas. Although a
+large proportion of the population live in rural areas, from
+experience and observations, education opportunities and social importance
+are higher in urban areas than they are in rural areas. One of the objectives
+of this analysis was to prove this dissonance empirically.
 \section{Data and Descriptive Statistics}
 \subsection{Data Collection}
 
@@ -66,7 +73,7 @@ The
 modules used
 in Python were seaborn \footcite{seaborn}, matplotlib \footcite{matplotlib} and
 pandas \footcite{pandas}. This document has also been
-typsetted using \LaTeX.
+typset using \LaTeX.
 
 For the men and women data, to get the region and area values, the cluster
 number and household number had to be searched for
@@ -82,7 +89,10 @@ all null and not-available values had to be filtered so the total and averages
 were not skewed/distorted.
 
 All data and source files used in this analysis have been uploaded to a public
-Github repository \footcite{githubdata}.
+Github repository.
+The Jupyter Notebook contained in the Github repository explicitly explains the
+steps taken to clean and shape the data and produce the figures
+\footcite{githubdata}.
 
 %# HH1 - cluster number
 %# HH2  - Household number
@@ -504,6 +514,7 @@ Github repository \footcite{githubdata}.
     \bottomrule
     \caption{Table showing highest level of school attended by male respondents
         per Region Area}
+    \label{tab:male}
 \end{longtable}
 \begin{longtable}{ccccc}
     \toprule
@@ -896,6 +907,7 @@ Github repository \footcite{githubdata}.
     \end{tabular}
     \caption{Table showing highest level of school attended per each area
         by Gender}
+    \label{tab:male_female_average}
 \end{table}
 \subsubsection{Figures}
 \begin{figure}[H]
@@ -931,7 +943,8 @@ level was higher secondary with an average of nearly 50\% of the respondents.
 In the rural area this was followed by lower secondary,
 primary and then higher with averages of 23\%, 13\% and 12\% respectively.
 In the urban area, the higher secondary level was followed by higher, lower
-secondary then primary with averages of 21\%, 16\% and 6\% respectively.
+secondary then primary with averages of 21\%, 16\% and 6\% respectively (see
+Table \ref{tab:male_female_average} and Figure \ref{fig:male_female_average}).
 This shows that in the urban area women are far more likely to attend
 institutions of higher learning after finishing their highschool education.
 This reason might be attributed to proximity of institutions from living area.
@@ -946,7 +959,8 @@ In the rural area this was followed by lower secondary, primary then higher
 with averages of 26\%, 16\% and 11\% respectively while in the
 urban area this was followed by lower secondary, higher then primary with area
 averages of 22\%, 18\% and 9\%
-respectively.
+respectively (see Table \ref{tab:male_female_average} and Figure
+\ref{fig:male_female_average}).
 While the positions for the higher and lower secondary levels didn't change
 positions
 by area, the average level of rural men with primary school levels vs. those in
@@ -957,9 +971,10 @@ having primary school as their highest level attended. This is also the reverse
 case with the higher school level as
 well with a difference of 7\% more in the urban area vs. rural area having a
 higher school level attendance.
-A look at school level per region shows that regions 1,2,3,6,7 and 9 have
+A look at school level per region shows that regions 1, 2, 3, 6, 7 and 9 have
 averages of and above 26\%
-of the respondents having lower secondary as their highest school attended.
+of the respondents having lower secondary as their highest school attended (see
+Figure \ref{fig:male_attendance}).
 These same regions with the exception of region 6 but addition of region 8 have
 averages of
 about or above the rural average for primary school level of 16\%.
@@ -969,11 +984,12 @@ percentage of its respondents having primary and lower secondary levels of
 highest
 schooling with both
 having 29\% while the higher secondary average is 41\%, a difference of 9\% of
-the urban average of 50\%.
+the urban average of 50\% (see Table \ref{tab:male}).
 
 Just like the regions that have the greatest portion of females with higher
 school levels,
-this is also the case with the males where regions 3,4, 10 and to some extent 5
+this is also the case with the males where regions 3, 4, 10 and to some extent
+5
 and 6 having the
 greatest portions of male respondents having a higher level schooling.
 The assumption of proximity to higher institutions from living area may also be
@@ -988,6 +1004,7 @@ high levels
 of early dropout especially in the rural areas.
 
 Some recommendations would be
+
 \begin{itemize}
     \item to provide mentoring and apprenticeships in various sectors such as
           sewing,
@@ -1006,6 +1023,14 @@ Some recommendations would be
           communities reach and are built for better or worse. It often seems
           that the farther
           one goes from the city, the more neglected these facilities are.
+          Establishing afterschool programmes in education and sports with
+          dedicated
+          facilitators at these facilities would help to boost the communities'
+          social welfare.
+          Given the direct interaction with members in the community, further
+          information on the specific
+          areas that need attention can be identified and highlighted. Hence,
+          improving programmes' effectiveness through efficiency increase.
     \item to improve upon education monitoring, evaluation and programme
           implementation - this improvement is especially needed for rural
           areas that are farthest from the city (see Regions 1 and 8). In these
@@ -1019,7 +1044,7 @@ Some recommendations would be
     \item to improve on any programme implementation - this applies to the
           previous recommendations
           and any programmes. In Guyana, programmes are
-          often rolled out without seeing it through or lackadaisickally
+          often rolled out without seeing it through or lackadaisically
           monitored. For example, government agencies would have a lot of
           planned programmes at the start of
           a fiscal year and only start to implement most of these programmes
@@ -1028,17 +1053,22 @@ Some recommendations would be
 \end{itemize}
 %\subsection{Limitations of analysis}
 \section{Conclusion}
-Time has been a huge limitation in this analysis.
-While the code used to analyse the data was checked, extra time would have been
-used to further ensure data integrity. The code and by extension the data
+While the code used to analyse the data was checked, the code and by extension
+the data
 produced
 by
-the code has also not been peer-reviewed which further limits its integrity.
+the code has not been peer-reviewed which limits its integrity.
 This analysis
 also only focuses on a specific parameter i.e. highest level of school
 attended which makes the analysis relatively myopic. If further analysis is
 done
 it would be interesting and wise to look at other parameters in the dataset,
 stratify and compare to see their relations (correlation and/or causation).
+However, what is evident is that there is a dissonance in school level
+attendence between urban and rural areas where a higher school level attendance
+favors urban areas as opposed to rural areas. This dissonance is especially
+evident for males than females. It would therefore be wise for the Government
+of Guyana to implement or improve upon existing programmes to remedy/improve
+upon this situation.
 \printbibliography
 \end{document}

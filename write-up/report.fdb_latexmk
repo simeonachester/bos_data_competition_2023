@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber report"] 1695700398 "report.bcf" "report.bbl" "report" 1695700404
-  "bibliography.bib" 1695700378 876 508d325fa5c1bc2c527b3598c4446256 ""
-  "report.bcf" 1695700404 124167 8aa6c8a331a3858489da217bea611ddc "pdflatex"
+["biber report"] 1695735009 "report.bcf" "report.bbl" "report" 1697417924
+  "bibliography.bib" 1695733228 1061 84569db5e755126f7789af7eefcb258d ""
+  "report.bcf" 1697417924 124287 bb9f845ca494516af8d910b5a5765ef5 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1695700402 "/home/kerboros/Documents/github/bos_data_competition_2023/write-up/report.tex" "report.pdf" "report" 1695700404
+["pdflatex"] 1697417922 "/home/kerboros/Documents/github/bos_data_competition_2023/write-up/report.tex" "report.pdf" "report" 1697417924
   "/etc/texmf/web2c/texmf.cnf" 1691952638 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/kerboros/Documents/github/bos_data_competition_2023/write-up/report.tex" 1695700396 48032 6b750f6ac5e4bd4eff9595ef6d962043 ""
+  "/home/kerboros/Documents/github/bos_data_competition_2023/write-up/report.tex" 1697417922 49695 19ae62a3332b6d7331aaefdf8abaf163 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -287,14 +287,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1693318115 4036811 4cb80868003c86b962b6b5ae1e1e2902 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1693318630 1405649 248c6544e51da34fc26c6a72c2c0a96e ""
-  "graphics/female_highest_school_attended.png" 1695662305 112656 3dcd19f0ffe26d23b28c44989d5e3bfc ""
-  "graphics/male_female_attendance_averages.png" 1695690222 77641 9ef0e50c363caa434d2e23da9b46523e ""
-  "graphics/male_highest_school_attended.png" 1695662324 112165 c1ec1f5f72375ba85cf247a5d09f8d04 ""
-  "report.aux" 1695700404 5214 848051bbb9001484d6ac82e2a90b77ee "pdflatex"
-  "report.bbl" 1695700399 4950 bbaae4a31da6bf9ade9d2d29dfa880e2 "biber report"
-  "report.out" 1695700404 1989 5c810514126c7c5dcdd5f9bc674c34cf "pdflatex"
-  "report.run.xml" 1695700404 2443 2e5918a57c06501bd56df564532dd417 "pdflatex"
-  "report.tex" 1695700396 48032 6b750f6ac5e4bd4eff9595ef6d962043 ""
+  "graphics/female_highest_school_attended.png" 1695732416 101484 5b0c6c9f213d9cd1d487ef8dd5369cba ""
+  "graphics/male_female_attendance_averages.png" 1695732450 69843 ff049f3fa4af1fe0b13d6de7fe7cd057 ""
+  "graphics/male_highest_school_attended.png" 1695732494 101066 65100374b79fedff7042c7c966ea480d ""
+  "report.aux" 1697417924 5682 fa6d369ce3ba9ba309275354362831c1 "pdflatex"
+  "report.bbl" 1695735010 6143 93feb0e0fb62eb900afd0167f25b5271 "biber report"
+  "report.out" 1697417924 1989 5c810514126c7c5dcdd5f9bc674c34cf "pdflatex"
+  "report.run.xml" 1697417924 2443 2e5918a57c06501bd56df564532dd417 "pdflatex"
+  "report.tex" 1697417922 49695 19ae62a3332b6d7331aaefdf8abaf163 ""
   (generated)
   "report.aux"
   "report.bcf"

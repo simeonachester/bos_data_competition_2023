@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'report.blg'
-[67] biber:340> INFO - === Mon Sep 25, 2023, 23:53:19
-[80] Biber.pm:418> INFO - Reading 'report.bcf'
-[142] Biber.pm:972> INFO - Found 6 citekeys in bib section 0
-[153] Biber.pm:4383> INFO - Processing section 0
-[161] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[162] bibtex.pm:1713> INFO - LaTeX decoding ...
-[165] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
-[204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[204] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[204] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[211] bbl.pm:654> INFO - Writing 'report.bbl' with encoding 'UTF-8'
-[212] bbl.pm:757> INFO - Output to report.bbl
+[76] biber:340> INFO - === Tue Sep 26, 2023, 09:30:09
+[88] Biber.pm:418> INFO - Reading 'report.bcf'
+[152] Biber.pm:972> INFO - Found 7 citekeys in bib section 0
+[163] Biber.pm:4383> INFO - Processing section 0
+[171] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[172] bibtex.pm:1713> INFO - LaTeX decoding ...
+[175] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[226] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[227] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[227] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[236] bbl.pm:654> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[239] bbl.pm:757> INFO - Output to report.bbl
